@@ -261,6 +261,11 @@
             renderTest();
             return;
           }
+          if (state.session?.mode === 'full-bank' && state.session?.status === 'completed' && state.session?.allRoundResults?.length > 0) {
+            const lastResult = state.session.allRoundResults[state.session.allRoundResults.length - 1];
+            renderRoundReview(lastResult);
+            return;
+          }
         } catch (e) {
           console.error('Failed to parse session:', e);
         }
@@ -382,8 +387,9 @@
             <div class="stat"><div class="stat-value">${bestScore}%</div><div class="stat-label">Best Score</div></div>
             <div class="stat"><div class="stat-value">${avgScore}%</div><div class="stat-label">Average</div></div>
           </div>
-          <div style="text-align: center;">
+          <div style="text-align: center; display: flex; flex-direction: column; gap: 0.75rem;">
             <button id="start-btn" class="btn">Start New Test</button>
+            <button id="full-bank-btn" class="btn btn-secondary">Full Bank Review</button>
           </div>
         </div>
         ${chartHtml}
@@ -426,6 +432,7 @@
       }, 100);
 
       document.getElementById('start-btn').addEventListener('click', startTest);
+      document.getElementById('full-bank-btn').addEventListener('click', startFullBankReview);
     }
 
     function renderHistory() {
@@ -704,6 +711,7 @@
       if (state.session.submitted) return;
       state.session.submitted = true;
       stopTimer();
+      
       let correct = 0;
       const questionDetails = [];
       
@@ -721,13 +729,15 @@
       
       state.session.correct = correct;
       state.session.status = 'completed';
-      const score = Math.round((correct / CONFIG.QUESTIONS_PER_TEST) * 100);
+      const score = Math.round((correct / state.session.questionIds.length) * 100);
       const passed = score >= CONFIG.PASS_THRESHOLD;
       const timeUsed = Math.round((CONFIG.TIME_LIMIT - state.timeRemaining) / 60);
       Data.updateQuestionStats(state.session);
       
+      const historyEntry = { date: Date.now(), score, correct, total: state.session.questionIds.length, passed, timeUsed, questions: questionDetails };
+      
       const history = Data.getHistory();
-      history.push({ date: Date.now(), score, correct, total: CONFIG.QUESTIONS_PER_TEST, passed, timeUsed, questions: questionDetails });
+      history.push(historyEntry);
       Data.saveHistory(history);
       
       const totalTests = history.length;
@@ -736,6 +746,17 @@
       const avgScore = totalTests > 0 ? Math.round(history.reduce((a, b) => a + b.score, 0) / totalTests) : 0;
       Data.saveStats({ total: totalTests, best: bestScore, avg: avgScore });
 
+      if (state.session.mode === 'full-bank') {
+        if (!state.session.allRoundResults) state.session.allRoundResults = [];
+        state.session.allRoundResults.push(historyEntry);
+        saveState();
+        renderRoundReview(historyEntry);
+      } else {
+        renderTestSummary(score, passed, correct);
+      }
+    }
+
+    function renderTestSummary(score, passed, correct) {
       app.innerHTML = `
         <div class="card" style="text-align: center;">
           <div class="results-icon">${passed ? '✓' : '✗'}</div>
@@ -748,9 +769,68 @@
           </div>
         </div>
       `;
-
       fadeIn('.card');
       if (passed) setTimeout(createConfetti, 200);
+    }
+
+    function renderRoundReview(results) {
+      const remainingCount = state.session.fullBankPool ? state.session.fullBankPool.length : 0;
+      const totalRounds = Math.ceil(Questions.getCount() / 20);
+      const currentRound = state.session.roundsCompleted + 1;
+
+      app.innerHTML = `
+        <div class="card" style="text-align: center;">
+          <div class="results-title">Round ${currentRound} of ${totalRounds} Complete</div>
+          <div class="results-score">${results.score}%</div>
+          <p style="color: #6b7280; margin-bottom: 1.5rem;">${results.correct}/${results.total} correct</p>
+          
+          <div style="display: flex; flex-direction: column; gap: 0.75rem;">
+            <button class="btn" onclick="renderReview()">Review Round Answers</button>
+            ${remainingCount > 0 
+              ? `<button class="btn btn-secondary" onclick="state.session.roundsCompleted++; nextFullBankRound()">Continue to Next Round (${remainingCount} left)</button>`
+              : ''}
+            <button class="btn btn-secondary" onclick="finishFullBankReview()">Finish and See Global Summary</button>
+          </div>
+        </div>
+      `;
+      fadeIn('.card');
+      if (results.passed) setTimeout(createConfetti, 200);
+    }
+
+    function finishFullBankReview() {
+      const allResults = state.session.allRoundResults || [];
+      const totalQuestions = allResults.reduce((sum, r) => sum + r.total, 0);
+      const totalCorrect = allResults.reduce((sum, r) => sum + r.correct, 0);
+      const overallScore = totalQuestions > 0 ? Math.round((totalCorrect / totalQuestions) * 100) : 0;
+      const overallPassed = overallScore >= CONFIG.PASS_THRESHOLD;
+
+      app.innerHTML = `
+        <div class="card" style="text-align: center;">
+          <div class="results-icon">${overallPassed ? '✓' : '✗'}</div>
+          <div class="results-title">Full Bank Review Complete</div>
+          <p style="color: #6b7280; margin-bottom: 1rem;">Final Result</p>
+          <div class="results-score">${overallScore}%</div>
+          <div class="stats" style="margin: 1.5rem 0;">
+            <div class="stat">
+              <div class="stat-value">${totalCorrect}</div>
+              <div class="stat-label">Total Correct</div>
+            </div>
+            <div class="stat">
+              <div class="stat-value">${totalQuestions}</div>
+              <div class="stat-label">Total Questions</div>
+            </div>
+            <div class="stat">
+              <div class="stat-value">${allResults.length}</div>
+              <div class="stat-label">Rounds Completed</div>
+            </div>
+          </div>
+          <div style="text-align: center; margin-top: 1rem;">
+            <button class="btn" onclick="localStorage.removeItem(CONFIG.KEY_SESSION); renderHome()">Back to Home</button>
+          </div>
+        </div>
+      `;
+      fadeIn('.card');
+      if (overallPassed) setTimeout(createConfetti, 200);
     }
 
     function renderReview() {
@@ -827,8 +907,46 @@
 
     function startTest() {
       const testIds = selectQuestions(20);
-      state.session = { id: Date.now().toString(), questionIds: testIds, answers: {}, currentIndex: 0, status: 'in-progress', startTime: Date.now() };
-      state.timeRemaining = 45 * 60;
+      state.session = { 
+        id: Date.now().toString(), 
+        mode: 'normal',
+        questionIds: testIds, 
+        answers: {}, 
+        currentIndex: 0, 
+        status: 'in-progress', 
+        startTime: Date.now() 
+      };
+      state.timeRemaining = CONFIG.TIME_LIMIT;
+      saveState();
+      renderTest();
+      startTimer();
+    }
+
+    function startFullBankReview() {
+      const allIds = Object.keys(Questions.getAll()).sort(() => Math.random() - 0.5);
+      state.session = {
+        id: Date.now().toString(),
+        mode: 'full-bank',
+        fullBankPool: allIds,
+        questionIds: [],
+        answers: {},
+        allRoundResults: [],
+        currentIndex: 0,
+        status: 'in-progress',
+        startTime: Date.now(),
+        roundsCompleted: 0
+      };
+      nextFullBankRound();
+    }
+
+    function nextFullBankRound() {
+      const count = Math.min(20, state.session.fullBankPool.length);
+      state.session.questionIds = state.session.fullBankPool.splice(0, count);
+      state.session.answers = {};
+      state.session.currentIndex = 0;
+      state.session.status = 'in-progress';
+      state.session.submitted = false;
+      state.timeRemaining = CONFIG.TIME_LIMIT;
       saveState();
       renderTest();
       startTimer();
