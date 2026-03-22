@@ -1,6 +1,7 @@
 const Questions = {
   questionBank: {
     "q001": {
+      'province-territory': 'national',
       text: "What are three responsibilities of Canadian citizenship?",
       options: [
         "Obeying the law, taking responsibility for oneself and family, serving on a jury when called",
@@ -14,6 +15,7 @@ const Questions = {
       source: { page: 9, chapter: "Rights and Responsibilities", lineNumbers: "1-15" }
     },
     "q002": {
+      'province-territory': 'national',
       text: "What is the meaning of the Remembrance Day poppy?",
       options: [
         "To remember our Sovereign, Queen Elizabeth II",
@@ -27,6 +29,7 @@ const Questions = {
       source: { page: 10, chapter: "Rights and Responsibilities", lineNumbers: "20-35" }
     },
     "q003": {
+      'province-territory': 'national',
       text: "How are Members of Parliament (MPs) chosen?",
       options: [
         "They are appointed by the United Nations",
@@ -40,6 +43,7 @@ const Questions = {
       source: { page: 67, chapter: "How Canadians Govern Themselves", lineNumbers: "1-10" }
     },
     "q004": {
+      'province-territory': 'national',
       text: "What are the three levels of government in Canada?",
       options: [
         "Federal, Provincial, and Municipal",
@@ -53,6 +57,7 @@ const Questions = {
       source: { page: 68, chapter: "How Canadians Govern Themselves", lineNumbers: "10-25" }
     },
     "q005": {
+      'province-territory': 'national',
       text: "What is the minimum age requirement to vote in Canadian federal elections?",
       options: [
         "18 years old",
@@ -66,6 +71,7 @@ const Questions = {
       source: { page: 75, chapter: "Federal Elections", lineNumbers: "5-15" }
     },
     "q006": {
+      'province-territory': 'national',
       text: "Who is the current King or Queen of Canada?",
       options: [
         "Queen Elizabeth II",
@@ -79,6 +85,7 @@ const Questions = {
       source: { page: 63, chapter: "How Canadians Govern Themselves", lineNumbers: "1-15" }
     },
     "q007": {
+      'province-territory': 'national',
       text: "What does the maple leaf on the Canadian flag symbolize?",
       options: [
         "The sugar maple tree industry",
@@ -92,6 +99,7 @@ const Questions = {
       source: { page: 95, chapter: "Canadian Symbols", lineNumbers: "15-25" }
     },
     "q008": {
+      'province-territory': 'national',
       text: "What is the national anthem of Canada?",
       options: [
         "The Maple Leaf Forever",
@@ -105,6 +113,7 @@ const Questions = {
       source: { page: 102, chapter: "Canadian Symbols", lineNumbers: "1-10" }
     },
     "q009": {
+      'province-territory': 'national',
       text: "What are Canada's two official languages?",
       options: [
         "English and French",
@@ -118,6 +127,7 @@ const Questions = {
       source: { page: 35, chapter: "Who We Are", lineNumbers: "1-10" }
     },
     "q010": {
+      'province-territory': 'national',
       text: "What is Confederation?",
       options: [
         "The joining of Canada's provinces and territories into one country",
@@ -131,6 +141,7 @@ const Questions = {
       source: { page: 47, chapter: "Canada's History", lineNumbers: "1-15" }
     },
     "q011": {
+      'province-territory': 'national',
       text: "Who was Canada's first Prime Minister?",
       options: [
         "Sir John A. Macdonald",
@@ -144,6 +155,7 @@ const Questions = {
       source: { page: 52, chapter: "Canada's History", lineNumbers: "15-30" }
     },
     "q012": {
+      'province-territory': 'national',
       text: "When did Canada become a country (Confederation)?",
       options: [
         "July 1, 1867",
@@ -157,6 +169,7 @@ const Questions = {
       source: { page: 47, chapter: "Canada's History", lineNumbers: "5-15" }
     },
     "q013": {
+      'province-territory': 'national',
       text: "What document contains Canada's Charter of Rights and Freedoms?",
       options: [
         "The Canadian Bill of Rights",
@@ -170,6 +183,7 @@ const Questions = {
       source: { page: 7, chapter: "Rights and Responsibilities", lineNumbers: "1-15" }
     },
     "q014": {
+      'province-territory': 'national',
       text: "What are the four fundamental freedoms protected by the Charter?",
       options: [
         "Freedom of speech, press, assembly, and religion",
@@ -183,6 +197,7 @@ const Questions = {
       source: { page: 7, chapter: "Rights and Responsibilities", lineNumbers: "10-20" }
     },
     "q015": {
+      'province-territory': 'quebec',
       text: "What is the role of the Lieutenant Governor in a province?",
       options: [
         "Elected by citizens to run the provincial government",
@@ -196,6 +211,7 @@ const Questions = {
       source: { page: 69, chapter: "How Canadians Govern Themselves", lineNumbers: "10-25" }
     },
     "q016": {
+      'province-territory': 'national',
       text: "What is the difference between the role of the Queen/King and the Prime Minister?",
       options: [
         "The Queen/King makes laws, the Prime Minister enforces them",
@@ -209,6 +225,7 @@ const Questions = {
       source: { page: 64, chapter: "How Canadians Govern Themselves", lineNumbers: "15-30" }
     },
     "q017": {
+      'province-territory': 'national',
       text: "How many provinces and territories does Canada have?",
       options: [
         "10 provinces and 3 territories",
@@ -222,6 +239,7 @@ const Questions = {
       source: { page: 107, chapter: "Canada's Regions", lineNumbers: "1-10" }
     },
     "q018": {
+      'province-territory': 'national',
       text: "What is the capital of Canada?",
       options: [
         "Ottawa",
@@ -235,6 +253,7 @@ const Questions = {
       source: { page: 109, chapter: "Canada's Regions", lineNumbers: "1-10" }
     },
     "q019": {
+      'province-territory': 'national',
       text: "What is the role of the Senate in Canada?",
       options: [
         "To represent the provinces in federal law-making",
@@ -248,6 +267,7 @@ const Questions = {
       source: { page: 65, chapter: "How Canadians Govern Themselves", lineNumbers: "15-30" }
     },
     "q020": {
+      'province-territory': 'national',
       text: "What is the role of the courts in Canada?",
       options: [
         "To create new laws for Parliament",
@@ -261,6 +281,7 @@ const Questions = {
       source: { page: 89, chapter: "Justice System", lineNumbers: "1-15" }
     },
     "q021": {
+      'province-territory': 'national',
       text: "What is the Supreme Court of Canada?",
       options: [
         "The court that handles all criminal cases",
@@ -274,6 +295,7 @@ const Questions = {
       source: { page: 90, chapter: "Justice System", lineNumbers: "10-25" }
     },
     "q022": {
+      'province-territory': 'national',
       text: "What are the three branches of government in Canada?",
       options: [
         "Executive, Legislative, and Judicial",
@@ -287,6 +309,7 @@ const Questions = {
       source: { page: 64, chapter: "How Canadians Govern Themselves", lineNumbers: "1-15" }
     },
     "q023": {
+      'province-territory': 'national',
       text: "Who is the head of the Canadian government?",
       options: [
         "The Governor General",
@@ -300,6 +323,7 @@ const Questions = {
       source: { page: 65, chapter: "How Canadians Govern Themselves", lineNumbers: "1-10" }
     },
     "q024": {
+      'province-territory': 'national',
       text: "What is the role of the Governor General?",
       options: [
         "To lead the federal government",
@@ -313,6 +337,7 @@ const Questions = {
       source: { page: 64, chapter: "How Canadians Govern Themselves", lineNumbers: "5-15" }
     },
     "q025": {
+      'province-territory': 'national',
       text: "What does \"responsible government\" mean?",
       options: [
         "The government is responsible to the people through elections",
@@ -326,6 +351,7 @@ const Questions = {
       source: { page: 46, chapter: "Canada's History", lineNumbers: "15-30" }
     },
     "q026": {
+      'province-territory': 'national',
       text: "Who were the United Empire Loyalists?",
       options: [
         "American colonists who remained loyal to Britain and came to Canada",
@@ -339,6 +365,7 @@ const Questions = {
       source: { page: 43, chapter: "Canada's History", lineNumbers: "15-30" }
     },
     "q027": {
+      'province-territory': 'national',
       text: "When did women get the right to vote in federal elections?",
       options: [
         "1900",
@@ -352,6 +379,7 @@ const Questions = {
       source: { page: 55, chapter: "Canada's History", lineNumbers: "15-25" }
     },
     "q028": {
+      'province-territory': 'national',
       text: "What happened on D-Day (June 6, 1944)?",
       options: [
         "Canada declared war on Germany",
@@ -365,6 +393,7 @@ const Questions = {
       source: { page: 56, chapter: "Canada's History", lineNumbers: "1-15" }
     },
     "q029": {
+      'province-territory': 'national',
       text: "What is the Order of Canada?",
       options: [
         "The highest military honour",
@@ -378,6 +407,7 @@ const Questions = {
       source: { page: 104, chapter: "Canadian Symbols", lineNumbers: "1-10" }
     },
     "q030": {
+      'province-territory': 'national',
       text: "What is the Victoria Cross?",
       options: [
         "Canada's national sports award",
@@ -391,6 +421,7 @@ const Questions = {
       source: { page: 104, chapter: "Canadian Symbols", lineNumbers: "10-20" }
     },
     "q031": {
+      'province-territory': 'national',
       text: "What are the Atlantic Provinces?",
       options: [
         "Ontario, Quebec, New Brunswick, Nova Scotia",
@@ -404,6 +435,7 @@ const Questions = {
       source: { page: 117, chapter: "Canada's Regions", lineNumbers: "1-10" }
     },
     "q032": {
+      'province-territory': 'ontario',
       text: "What is the capital of Ontario?",
       options: [
         "Toronto",
@@ -417,6 +449,7 @@ const Questions = {
       source: { page: 114, chapter: "Canada's Regions", lineNumbers: "1-10" }
     },
     "q033": {
+      'province-territory': 'quebec',
       text: "What is the capital of Quebec?",
       options: [
         "Quebec City",
@@ -430,6 +463,7 @@ const Questions = {
       source: { page: 113, chapter: "Canada's Regions", lineNumbers: "1-10" }
     },
     "q034": {
+      'province-territory': 'british-columbia',
       text: "What is the capital of British Columbia?",
       options: [
         "Vancouver",
@@ -443,6 +477,7 @@ const Questions = {
       source: { page: 121, chapter: "Canada's Regions", lineNumbers: "1-10" }
     },
     "q035": {
+      'province-territory': 'national',
       text: "What are the Prairie Provinces?",
       options: [
         "Ontario, Manitoba, Saskatchewan",
@@ -456,6 +491,7 @@ const Questions = {
       source: { page: 118, chapter: "Canada's Regions", lineNumbers: "1-10" }
     },
     "q036": {
+      'province-territory': 'quebec',
       text: "Who founded Quebec City?",
       options: [
         "Jacques Cartier",
@@ -469,6 +505,7 @@ const Questions = {
       source: { page: 40, chapter: "Canada's History", lineNumbers: "15-30" }
     },
     "q037": {
+      'province-territory': 'national',
       text: "Who discovered insulin?",
       options: [
         "Sir Alexander Fleming",
@@ -482,6 +519,7 @@ const Questions = {
       source: { page: 60, chapter: "Modern Canada", lineNumbers: "15-25" }
     },
     "q038": {
+      'province-territory': 'national',
       text: "What is the meaning of the word \"Inuit\"?",
       options: [
         "The first people",
@@ -495,6 +533,7 @@ const Questions = {
       source: { page: 25, chapter: "Who We Are", lineNumbers: "15-25" }
     },
     "q039": {
+      'province-territory': 'national',
       text: "What are the Métis?",
       options: [
         "People of mixed European and Indigenous ancestry",
@@ -508,6 +547,7 @@ const Questions = {
       source: { page: 26, chapter: "Who We Are", lineNumbers: "10-20" }
     },
     "q040": {
+      'province-territory': 'national',
       text: "What does \"Aboriginal peoples\" include in Canada?",
       options: [
         "First Nations only",
@@ -521,6 +561,7 @@ const Questions = {
       source: { page: 23, chapter: "Who We Are", lineNumbers: "1-10" }
     },
     "q041": {
+      'province-territory': 'national',
       text: "What are the founding peoples of Canada?",
       options: [
         "Aboriginal peoples, French, and British",
@@ -534,6 +575,7 @@ const Questions = {
       source: { page: 27, chapter: "Who We Are", lineNumbers: "1-10" }
     },
     "q042": {
+      'province-territory': 'quebec',
       text: "What is the flag of Quebec called?",
       options: [
         "Union Jack",
@@ -547,6 +589,7 @@ const Questions = {
       source: { page: 97, chapter: "Canadian Symbols", lineNumbers: "1-10" }
     },
     "q043": {
+      'province-territory': 'quebec',
       text: "What does the fleur-de-lys symbolize?",
       options: [
         "Canada's French heritage",
@@ -560,6 +603,7 @@ const Questions = {
       source: { page: 97, chapter: "Canadian Symbols", lineNumbers: "5-15" }
     },
     "q044": {
+      'province-territory': 'national',
       text: "What is Canada's national animal?",
       options: [
         "Moose",
@@ -573,6 +617,7 @@ const Questions = {
       source: { page: 100, chapter: "Canadian Symbols", lineNumbers: "15-25" }
     },
     "q045": {
+      'province-territory': 'national',
       text: "What is the motto of Canada?",
       options: [
         "Freedom and Justice",
@@ -586,6 +631,7 @@ const Questions = {
       source: { page: 98, chapter: "Canadian Symbols", lineNumbers: "1-10" }
     },
     "q046": {
+      'province-territory': 'national',
       text: "What is Parliament Hill?",
       options: [
         "A shopping centre in Ottawa",
@@ -599,6 +645,7 @@ const Questions = {
       source: { page: 99, chapter: "Canadian Symbols", lineNumbers: "1-10" }
     },
     "q047": {
+      'province-territory': 'national',
       text: "How many national holidays does Canada have?",
       options: [
         "5",
@@ -612,6 +659,7 @@ const Questions = {
       source: { page: 106, chapter: "Canadian Symbols", lineNumbers: "1-15" }
     },
     "q048": {
+      'province-territory': 'national',
       text: "What is Canada Day?",
       options: [
         "July 1",
@@ -625,6 +673,7 @@ const Questions = {
       source: { page: 106, chapter: "Canadian Symbols", lineNumbers: "1-10" }
     },
     "q049": {
+      'province-territory': 'national',
       text: "What are the three main industries in Canada?",
       options: [
         "Agriculture, Fishing, and Mining",
@@ -638,6 +687,7 @@ const Questions = {
       source: { page: 127, chapter: "Canada's Economy", lineNumbers: "1-15" }
     },
     "q050": {
+      'province-territory': 'national',
       text: "What is Canada's most important trading partner?",
       options: [
         "China",
@@ -651,6 +701,7 @@ const Questions = {
       source: { page: 125, chapter: "Canada's Economy", lineNumbers: "1-15" }
     },
     "q051": {
+      'province-territory': 'national',
       text: "What is the purpose of the police in Canada?",
       options: [
         "To enforce laws and maintain peace and order",
@@ -664,6 +715,7 @@ const Questions = {
       source: { page: 91, chapter: "Justice System", lineNumbers: "1-10" }
     },
     "q052": {
+      'province-territory': 'national',
       text: "Are Canadians allowed to question the police about their service or conduct?",
       options: [
         "No, police can never be questioned",
@@ -677,6 +729,7 @@ const Questions = {
       source: { page: 92, chapter: "Justice System", lineNumbers: "10-20" }
     },
     "q053": {
+      'province-territory': 'national',
       text: "How can Canadians get legal help?",
       options: [
         "Only through private lawyers",
@@ -690,6 +743,7 @@ const Questions = {
       source: { page: 92, chapter: "Justice System", lineNumbers: "15-25" }
     },
     "q054": {
+      'province-territory': 'national',
       text: "What is the secret ballot?",
       options: [
         "A voting method where your choices cannot be seen by others",
@@ -703,6 +757,7 @@ const Questions = {
       source: { page: 78, chapter: "Federal Elections", lineNumbers: "1-10" }
     },
     "q055": {
+      'province-territory': 'national',
       text: "Are Canadians obliged to tell others how they voted?",
       options: [
         "Yes, it is required by law",
@@ -716,6 +771,7 @@ const Questions = {
       source: { page: 78, chapter: "Federal Elections", lineNumbers: "5-15" }
     },
     "q056": {
+      'province-territory': 'national',
       text: "What happens after a federal election?",
       options: [
         "The party with the most votes forms the government",
@@ -729,6 +785,7 @@ const Questions = {
       source: { page: 79, chapter: "Federal Elections", lineNumbers: "1-10" }
     },
     "q057": {
+      'province-territory': 'national',
       text: "Who is your Member of Parliament (MP)?",
       options: [
         "The Prime Minister",
@@ -742,6 +799,7 @@ const Questions = {
       source: { page: 80, chapter: "Federal Elections", lineNumbers: "1-10" }
     },
     "q058": {
+      'province-territory': 'national',
       text: "Who is entitled to vote in Canadian federal elections?",
       options: [
         "All people living in Canada",
@@ -755,6 +813,7 @@ const Questions = {
       source: { page: 75, chapter: "Federal Elections", lineNumbers: "1-10" }
     },
     "q059": {
+      'province-territory': 'national',
       text: "Who can run for elected office in Canada?",
       options: [
         "Only Canadian-born citizens over 21",
@@ -768,6 +827,7 @@ const Questions = {
       source: { page: 77, chapter: "Federal Elections", lineNumbers: "1-10" }
     },
     "q060": {
+      'province-territory': 'national',
       text: "What is meant by equality of women and men?",
       options: [
         "Women and men should do exactly the same jobs",
@@ -781,6 +841,7 @@ const Questions = {
       source: { page: 10, chapter: "Rights and Responsibilities", lineNumbers: "1-10" }
     },
     "q061": {
+      'province-territory': 'national',
       text: "What are examples of taking responsibility for yourself and your family?",
       options: [
         "Working to support your family, caring for children, and helping elderly relatives",
@@ -794,6 +855,7 @@ const Questions = {
       source: { page: 9, chapter: "Rights and Responsibilities", lineNumbers: "1-10" }
     },
     "q062": {
+      'province-territory': 'national',
       text: "What is meant by unity in diversity?",
       options: [
         "People from different backgrounds living together in harmony",
@@ -807,6 +869,7 @@ const Questions = {
       source: { page: 28, chapter: "Who We Are", lineNumbers: "1-10" }
     },
     "q063": {
+      'province-territory': 'national',
       text: "What is multiculturalism?",
       options: [
         "One culture dominating all others",
@@ -820,6 +883,7 @@ const Questions = {
       source: { page: 29, chapter: "Who We Are", lineNumbers: "1-10" }
     },
     "q064": {
+      'province-territory': 'national',
       text: "What are some examples of Canadian diversity?",
       options: [
         "Many different ethnic origins, religions, and languages",
@@ -833,6 +897,7 @@ const Questions = {
       source: { page: 29, chapter: "Who We Are", lineNumbers: "5-15" }
     },
     "q065": {
+      'province-territory': 'national',
       text: "What does it mean to say that Canada is a constitutional monarchy?",
       options: [
         "The Queen/King has absolute power",
@@ -846,6 +911,7 @@ const Questions = {
       source: { page: 63, chapter: "How Canadians Govern Themselves", lineNumbers: "1-10" }
     },
     "q066": {
+      'province-territory': 'national',
       text: "Who helped found La Francophonie in 1970?",
       options: [
         "United States",
@@ -859,6 +925,7 @@ const Questions = {
       source: { page: 61, chapter: "Modern Canada", lineNumbers: "1-10" }
     },
     "q067": {
+      'province-territory': 'national',
       text: "What is the North Atlantic Treaty Organization (NATO)?",
       options: [
         "A North American trade agreement",
@@ -872,6 +939,7 @@ const Questions = {
       source: { page: 62, chapter: "Modern Canada", lineNumbers: "1-15" }
     },
     "q068": {
+      'province-territory': 'national',
       text: "What happened during the War of 1812?",
       options: [
         "Canada invaded the United States",
@@ -885,6 +953,7 @@ const Questions = {
       source: { page: 44, chapter: "Canada's History", lineNumbers: "1-15" }
     },
     "q069": {
+      'province-territory': 'national',
       text: "Who was Louis-Hippolyte La Fontaine?",
       options: [
         "Canada's first Prime Minister",
@@ -898,6 +967,7 @@ const Questions = {
       source: { page: 46, chapter: "Canada's History", lineNumbers: "1-10" }
     },
     "q070": {
+      'province-territory': 'national',
       text: "What did the Canadian Pacific Railway symbolize?",
       options: [
         "Canada's connection to the United States",
@@ -911,6 +981,7 @@ const Questions = {
       source: { page: 52, chapter: "Canada's History", lineNumbers: "1-15" }
     },
     "q071": {
+      'province-territory': 'british-columbia',
       text: "When was the Canadian Pacific Railway completed?",
       options: [
         "1867",
@@ -924,6 +995,7 @@ const Questions = {
       source: { page: 52, chapter: "Canada's History", lineNumbers: "10-20" }
     },
     "q072": {
+      'province-territory': 'national',
       text: "What were the Rebellions of 1837-38?",
       options: [
         "Attacks by the United States on Canada",
@@ -937,6 +1009,7 @@ const Questions = {
       source: { page: 45, chapter: "Canada's History", lineNumbers: "1-15" }
     },
     "q073": {
+      'province-territory': 'national',
       text: "When was slavery abolished in Canada?",
       options: [
         "1776",
@@ -950,6 +1023,7 @@ const Questions = {
       source: { page: 43, chapter: "Canada's History", lineNumbers: "1-10" }
     },
     "q074": {
+      'province-territory': 'national',
       text: "What are two key documents that contain Canadian rights and freedoms?",
       options: [
         "The Canadian Bill of Rights and the Constitution Act",
@@ -963,6 +1037,7 @@ const Questions = {
       source: { page: 7, chapter: "Rights and Responsibilities", lineNumbers: "1-10" }
     },
     "q075": {
+      'province-territory': 'national',
       text: "Name four rights that Canadians enjoy:",
       options: [
         "Right to bear arms, right to privacy, right to work, right to strike",
@@ -976,6 +1051,7 @@ const Questions = {
       source: { page: 7, chapter: "Rights and Responsibilities", lineNumbers: "5-15" }
     },
     "q076": {
+      'province-territory': 'national',
       text: "What did the Canadian Charter of Rights and Freedoms guarantee?",
       options: [
         "Economic rights only",
@@ -989,6 +1065,7 @@ const Questions = {
       source: { page: 7, chapter: "Rights and Responsibilities", lineNumbers: "5-20" }
     },
     "q077": {
+      'province-territory': 'national',
       text: "What are Aboriginal rights?",
       options: [
         "Rights only for First Nations peoples",
@@ -1002,6 +1079,7 @@ const Questions = {
       source: { page: 8, chapter: "Rights and Responsibilities", lineNumbers: "1-10" }
     },
     "q078": {
+      'province-territory': 'national',
       text: "What is the War Measures Act?",
       options: [
         "A law about military service",
@@ -1015,6 +1093,7 @@ const Questions = {
       source: { page: 57, chapter: "Canada's History", lineNumbers: "1-10" }
     },
     "q079": {
+      'province-territory': 'national',
       text: "When did Canada gain full independence from Britain?",
       options: [
         "1867",
@@ -1028,6 +1107,7 @@ const Questions = {
       source: { page: 54, chapter: "Canada's History", lineNumbers: "1-15" }
     },
     "q080": {
+      'province-territory': 'national',
       text: "What is patriation of the Constitution?",
       options: [
         "Moving the capital to Ottawa",
@@ -1041,6 +1121,7 @@ const Questions = {
       source: { page: 59, chapter: "Canada's History", lineNumbers: "1-10" }
     },
     "q081": {
+      'province-territory': 'national',
       text: "What Canadian invention revolutionized aviation?",
       options: [
         "The airplane",
@@ -1054,6 +1135,7 @@ const Questions = {
       source: { page: 60, chapter: "Modern Canada", lineNumbers: "1-15" }
     },
     "q082": {
+      'province-territory': 'national',
       text: "What is Bombardier famous for?",
       options: [
         "Making cars",
@@ -1067,6 +1149,7 @@ const Questions = {
       source: { page: 60, chapter: "Modern Canada", lineNumbers: "10-20" }
     },
     "q083": {
+      'province-territory': 'quebec',
       text: "What famous Canadian poet wrote \"The Hockey Sweater\"?",
       options: [
         "E.J. Pratt",
@@ -1080,6 +1163,7 @@ const Questions = {
       source: { page: 60, chapter: "Modern Canada", lineNumbers: "15-25" }
     },
     "q084": {
+      'province-territory': 'british-columbia',
       text: "Who is a famous Canadian painter?",
       options: [
         "Norman Rockwell",
@@ -1093,6 +1177,7 @@ const Questions = {
       source: { page: 60, chapter: "Modern Canada", lineNumbers: "1-10" }
     },
     "q085": {
+      'province-territory': 'national',
       text: "What popular winter sport originated in Canada?",
       options: [
         "Soccer",
@@ -1106,6 +1191,7 @@ const Questions = {
       source: { page: 101, chapter: "Canadian Symbols", lineNumbers: "1-10" }
     },
     "q086": {
+      'province-territory': 'national',
       text: "What are Canada's two national summer sports?",
       options: [
         "Soccer and baseball",
@@ -1119,6 +1205,7 @@ const Questions = {
       source: { page: 101, chapter: "Canadian Symbols", lineNumbers: "5-15" }
     },
     "q087": {
+      'province-territory': 'national',
       text: "What is the population of Canada approximately?",
       options: [
         "20 million",
@@ -1132,6 +1219,7 @@ const Questions = {
       source: { page: 116, chapter: "Canada's Regions", lineNumbers: "1-10" }
     },
     "q088": {
+      'province-territory': 'northern-territories',
       text: "What is the largest province/territory by area?",
       options: [
         "Ontario",
@@ -1145,6 +1233,7 @@ const Questions = {
       source: { page: 123, chapter: "Canada's Regions", lineNumbers: "1-10" }
     },
     "q089": {
+      'province-territory': 'prince-edward-island',
       text: "What is the smallest province by area?",
       options: [
         "New Brunswick",
@@ -1158,6 +1247,7 @@ const Questions = {
       source: { page: 117, chapter: "Canada's Regions", lineNumbers: "1-10" }
     },
     "q090": {
+      'province-territory': 'ontario',
       text: "What body of water lies between Canada and the United States on the southern border?",
       options: [
         "Atlantic Ocean",
@@ -1171,6 +1261,7 @@ const Questions = {
       source: { page: 114, chapter: "Canada's Regions", lineNumbers: "1-10" }
     },
     "q091": {
+      'province-territory': 'northwest-territories',
       text: "What is the longest river in Canada?",
       options: [
         "St. Lawrence River",
@@ -1184,6 +1275,7 @@ const Questions = {
       source: { page: 123, chapter: "Canada's Regions", lineNumbers: "1-10" }
     },
     "q092": {
+      'province-territory': 'national',
       text: "What Canadian city is the largest by population?",
       options: [
         "Ottawa",
@@ -1197,6 +1289,7 @@ const Questions = {
       source: { page: 114, chapter: "Canada's Regions", lineNumbers: "1-10" }
     },
     "q093": {
+      'province-territory': 'nova-scotia',
       text: "What is the capital of Nova Scotia?",
       options: [
         "Halifax",
@@ -1210,6 +1303,7 @@ const Questions = {
       source: { page: 117, chapter: "Canada's Regions", lineNumbers: "1-10" }
     },
     "q094": {
+      'province-territory': 'national',
       text: "What is the capital of Alberta?",
       options: [
         "Calgary",
@@ -1223,6 +1317,7 @@ const Questions = {
       source: { page: 119, chapter: "Canada's Regions", lineNumbers: "1-10" }
     },
     "q095": {
+      'province-territory': 'alberta',
       text: "What Canadian province is known for its oil sands?",
       options: [
         "Saskatchewan",
@@ -1236,6 +1331,7 @@ const Questions = {
       source: { page: 119, chapter: "Canada's Regions", lineNumbers: "1-10" }
     },
     "q096": {
+      'province-territory': 'national',
       text: "What is the Canadian Shield?",
       options: [
         "A protected wildlife area",
@@ -1249,6 +1345,7 @@ const Questions = {
       source: { page: 115, chapter: "Canada's Regions", lineNumbers: "1-10" }
     },
     "q097": {
+      'province-territory': 'northern-territories',
       text: "What are the territories in Northern Canada?",
       options: [
         "Northwest Territories, Yukon, and Nunavut",
@@ -1262,6 +1359,7 @@ const Questions = {
       source: { page: 122, chapter: "Canada's Regions", lineNumbers: "1-10" }
     },
     "q098": {
+      'province-territory': 'national',
       text: "Who are the Canadian Rangers?",
       options: [
         "Professional soldiers",
@@ -1275,6 +1373,7 @@ const Questions = {
       source: { page: 124, chapter: "Canada's Regions", lineNumbers: "1-10" }
     },
     "q099": {
+      'province-territory': 'national',
       text: "What is the purpose of the oath of citizenship?",
       options: [
         "To pledge loyalty to Canada and its people",
@@ -1288,6 +1387,7 @@ const Questions = {
       source: { page: 5, chapter: "Rights and Responsibilities", lineNumbers: "1-10" }
     },
     "q100": {
+      'province-territory': 'national',
       text: "Who administers the Canadian citizenship test?",
       options: [
         "The Supreme Court of Canada",
@@ -1302,6 +1402,7 @@ const Questions = {
     }
 ,
     "q101": {
+      'province-territory': 'national',
       text: "Who are the Acadians?",
       options: [
         "First Nations people of the Arctic",
@@ -1315,6 +1416,7 @@ const Questions = {
       source: { page: 0, chapter: "Canada's History", lineNumbers: "0-0" }
     },
     "q102": {
+      'province-territory': 'national',
       text: "Name 3 responsibilities of Canadian citizenship.",
       options: [
         "Serving on a jury, keeping your yard tidy, and helping others in the community",
@@ -1328,6 +1430,7 @@ const Questions = {
       source: { page: 0, chapter: "Rights and Responsibilities", lineNumbers: "0-0" }
     },
     "q103": {
+      'province-territory': 'national',
       text: "What does the \"right to a secret ballot\" refer to in Canadian elections?",
       options: [
         "You must vote without telling anyone",
@@ -1341,6 +1444,7 @@ const Questions = {
       source: { page: 0, chapter: "Federal Elections", lineNumbers: "0-0" }
     },
     "q104": {
+      'province-territory': 'national',
       text: "Who do Canadians vote for in a federal election?",
       options: [
         "A candidate they want to represent their riding in Parliament",
@@ -1354,6 +1458,7 @@ const Questions = {
       source: { page: 0, chapter: "Federal Elections", lineNumbers: "0-0" }
     },
     "q105": {
+      'province-territory': 'national',
       text: "Which of the following is an important Canadian value?",
       options: [
         "Capital punishment",
@@ -1367,6 +1472,7 @@ const Questions = {
       source: { page: 0, chapter: "How Canadians Govern", lineNumbers: "0-0" }
     },
     "q106": {
+      'province-territory': 'national',
       text: "Which three individuals are considered Fathers of Confederation?",
       options: [
         "Sir Étienne-Paschal Taché, Sir George-Étienne Cartier, and Sir John A. Macdonald",
@@ -1380,6 +1486,7 @@ const Questions = {
       source: { page: 0, chapter: "Canada's History", lineNumbers: "0-0" }
     },
     "q107": {
+      'province-territory': 'national',
       text: "In the 1960s, Québec experienced rapid change. What is this period called?",
       options: [
         "The Riel Rebellion",
@@ -1393,6 +1500,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q108": {
+      'province-territory': 'national',
       text: "After a federal election, which party forms the new government?",
       options: [
         "The party with the most elected representatives is invited by the Governor General to become the party in power.",
@@ -1406,6 +1514,7 @@ const Questions = {
       source: { page: 0, chapter: "Federal Elections", lineNumbers: "0-0" }
     },
     "q109": {
+      'province-territory': 'national',
       text: "What do you call a law before it is passed?",
       options: [
         "A New law.",
@@ -1419,6 +1528,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q110": {
+      'province-territory': 'national',
       text: "Who is Marjorie Turner-Bailey?",
       options: [
         "An Olympian and descendant of Black Loyalists",
@@ -1432,6 +1542,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q111": {
+      'province-territory': 'national',
       text: "In which industry do most Canadians work?",
       options: [
         "Natural resources",
@@ -1445,6 +1556,7 @@ const Questions = {
       source: { page: 0, chapter: "Canada's Economy", lineNumbers: "0-0" }
     },
     "q112": {
+      'province-territory': 'national',
       text: "What are the 3 main groups of Aboriginal peoples?",
       options: [
         "First Nations, Inuit, and Métis",
@@ -1458,6 +1570,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q113": {
+      'province-territory': 'national',
       text: "What year did the Canadian Charter of Rights and Freedoms become part of the Constitution?",
       options: [
         "1976",
@@ -1471,6 +1584,7 @@ const Questions = {
       source: { page: 0, chapter: "Rights and Responsibilities", lineNumbers: "0-0" }
     },
     "q114": {
+      'province-territory': 'national',
       text: "Name the Prairie Provinces.",
       options: [
         "Manitoba, Saskatchewan, and British Columbia",
@@ -1484,6 +1598,7 @@ const Questions = {
       source: { page: 0, chapter: "Canada's Regions", lineNumbers: "0-0" }
     },
     "q115": {
+      'province-territory': 'national',
       text: "What facilitated the settlement of immigrants in Western Canada?",
       options: [
         "The completion of the port of Vancouver",
@@ -1497,6 +1612,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q116": {
+      'province-territory': 'national',
       text: "Which of these is a fundamental freedom guaranteed by the Canadian Charter of Rights and Freedoms?",
       options: [
         "Freedom of speech only",
@@ -1510,6 +1626,7 @@ const Questions = {
       source: { page: 0, chapter: "Rights and Responsibilities", lineNumbers: "0-0" }
     },
     "q117": {
+      'province-territory': 'national',
       text: "What does \"responsible government\" mean in Canada?",
       options: [
         "The government must listen to the military's demands",
@@ -1523,6 +1640,7 @@ const Questions = {
       source: { page: 0, chapter: "How Canadians Govern", lineNumbers: "0-0" }
     },
     "q118": {
+      'province-territory': 'national',
       text: "What event is commemorated by Remembrance Day in Canada?",
       options: [
         "The founding of the Canadian military",
@@ -1536,6 +1654,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q119": {
+      'province-territory': 'national',
       text: "Give an example of how you can help in the community.",
       options: [
         "Wear red on Canada Day",
@@ -1549,6 +1668,7 @@ const Questions = {
       source: { page: 0, chapter: "How Canadians Govern", lineNumbers: "0-0" }
     },
     "q120": {
+      'province-territory': 'national',
       text: "Which 4 provinces first formed Confederation?",
       options: [
         "Ontario, Québec, Nova Scotia, and New Brunswick",
@@ -1562,6 +1682,7 @@ const Questions = {
       source: { page: 0, chapter: "Canada's History", lineNumbers: "0-0" }
     },
     "q121": {
+      'province-territory': 'national',
       text: "A Member of Parliament from Montreal announces that she will spend her weekend in her electoral district. This means she would be:",
       options: [
         "In her office on Parliament Hill.",
@@ -1575,6 +1696,7 @@ const Questions = {
       source: { page: 0, chapter: "How Canadians Govern", lineNumbers: "0-0" }
     },
     "q122": {
+      'province-territory': 'national',
       text: "",
       options: [
         "8 million.",
@@ -1587,6 +1709,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q123": {
+      'province-territory': 'national',
       text: "Canada has three territories and how many provinces?",
       options: [
         "13",
@@ -1600,6 +1723,7 @@ const Questions = {
       source: { page: 0, chapter: "Canada's Regions", lineNumbers: "0-0" }
     },
     "q124": {
+      'province-territory': 'national',
       text: "Fatima is a new immigrant in Canada. What law allows her to take a job at par with a man?",
       options: [
         "Equality of women and men",
@@ -1613,6 +1737,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q125": {
+      'province-territory': 'national',
       text: "From where does the name “Canada” come from?",
       options: [
         "From the Inuit word meaning country.",
@@ -1626,6 +1751,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q126": {
+      'province-territory': 'national',
       text: "Give an example of how you can show responsibility by participating in your community.",
       options: [
         "Mind your own business.",
@@ -1639,6 +1765,7 @@ const Questions = {
       source: { page: 0, chapter: "How Canadians Govern", lineNumbers: "0-0" }
     },
     "q127": {
+      'province-territory': 'national',
       text: "Give an example of where English and French have equal status in Canada.",
       options: [
         "In schools.",
@@ -1652,6 +1779,7 @@ const Questions = {
       source: { page: 0, chapter: "How Canadians Govern", lineNumbers: "0-0" }
     },
     "q128": {
+      'province-territory': 'national',
       text: "Give the first line of Canada’s national anthem?",
       options: [
         "O Canada! Our home and native land!",
@@ -1665,6 +1793,7 @@ const Questions = {
       source: { page: 0, chapter: "Canadian Symbols", lineNumbers: "0-0" }
     },
     "q129": {
+      'province-territory': 'national',
       text: "How are Members of Parliament chosen?",
       options: [
         "They are appointed by the United Nations.",
@@ -1678,6 +1807,7 @@ const Questions = {
       source: { page: 0, chapter: "How Canadians Govern", lineNumbers: "0-0" }
     },
     "q130": {
+      'province-territory': 'national',
       text: "How are Senators chosen?",
       options: [
         "By the Governor General of Canada.",
@@ -1691,6 +1821,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q131": {
+      'province-territory': 'national',
       text: "How does a bill become a law?",
       options: [
         "The Lieutenant Governor must approve the bill.",
@@ -1704,6 +1835,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q132": {
+      'province-territory': 'national',
       text: "How is a Cabinet Minister chosen?",
       options: [
         "By the King.",
@@ -1717,6 +1849,7 @@ const Questions = {
       source: { page: 0, chapter: "How Canadians Govern", lineNumbers: "0-0" }
     },
     "q133": {
+      'province-territory': 'national',
       text: "How is the government formed after a federal election?",
       options: [
         "The party with the most elected representatives becomes the party in power. The King chooses the Prime Minister from this party",
@@ -1730,6 +1863,7 @@ const Questions = {
       source: { page: 0, chapter: "Federal Elections", lineNumbers: "0-0" }
     },
     "q134": {
+      'province-territory': 'national',
       text: "How is the Prime Minister chosen?",
       options: [
         "The King appoints the Prime Minister.",
@@ -1743,6 +1877,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q135": {
+      'province-territory': 'national',
       text: "In Canada, are you allowed to question the police about their service or conduct?",
       options: [
         "No, police service and conduct is not open to discussion with Canadians.",
@@ -1756,6 +1891,7 @@ const Questions = {
       source: { page: 0, chapter: "Justice System", lineNumbers: "0-0" }
     },
     "q136": {
+      'province-territory': 'national',
       text: "In Canada’s justice system what does “presumption of innocence” mean?",
       options: [
         "Everyone is guilty until proven innocent",
@@ -1769,6 +1905,7 @@ const Questions = {
       source: { page: 0, chapter: "How Canadians Govern", lineNumbers: "0-0" }
     },
     "q137": {
+      'province-territory': 'quebec',
       text: "In the 1960s, Quebec experienced an era of rapid change. What is this called?",
       options: [
         "The West Movement.",
@@ -1782,6 +1919,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q138": {
+      'province-territory': 'national',
       text: "In what industry do most Canadians work?",
       options: [
         "Natural resources",
@@ -1795,6 +1933,7 @@ const Questions = {
       source: { page: 0, chapter: "Canada's Economy", lineNumbers: "0-0" }
     },
     "q139": {
+      'province-territory': 'national',
       text: "In which region do more than half the people in Canada live?",
       options: [
         "Central Canada.",
@@ -1808,6 +1947,7 @@ const Questions = {
       source: { page: 0, chapter: "Canada's Regions", lineNumbers: "0-0" }
     },
     "q140": {
+      'province-territory': 'national',
       text: "Name all the federal political parties in the House of Commons and their leaders",
       options: [
         "Conservative (Andrew Scheer - interim leader), NDP (Don Davies - interim leader), Liberal (Mark Carney), Bloc Quebecois (Blanchet), Green Party (May)",
@@ -1821,6 +1961,7 @@ const Questions = {
       source: { page: 0, chapter: "How Canadians Govern", lineNumbers: "0-0" }
     },
     "q141": {
+      'province-territory': 'national',
       text: "Name six responsibilities of citizenship.",
       options: [
         "Getting a job, making money, raising a family, paying taxes, mowing your lawn, voting in provincial elections.",
@@ -1834,6 +1975,7 @@ const Questions = {
       source: { page: 0, chapter: "Rights and Responsibilities", lineNumbers: "0-0" }
     },
     "q142": {
+      'province-territory': 'national',
       text: "Name the five regions of Canada",
       options: [
         "Midwest, North, South, East, Central",
@@ -1847,6 +1989,7 @@ const Questions = {
       source: { page: 0, chapter: "Canada's Regions", lineNumbers: "0-0" }
     },
     "q143": {
+      'province-territory': 'national',
       text: "Name three additional rights protected by the Canadian Charter of Rights and Freedoms",
       options: [
         "Freedom of speech, Right to own land, and Right to a fair trial.",
@@ -1860,6 +2003,7 @@ const Questions = {
       source: { page: 0, chapter: "Rights and Responsibilities", lineNumbers: "0-0" }
     },
     "q144": {
+      'province-territory': 'national',
       text: "Name two fundamental freedoms protected by the Canadian Charter of Rights and Freedoms.",
       options: [
         "Freedom of conscience and religion, and Freedom of association.",
@@ -1873,6 +2017,7 @@ const Questions = {
       source: { page: 0, chapter: "Rights and Responsibilities", lineNumbers: "0-0" }
     },
     "q145": {
+      'province-territory': 'national',
       text: "Name two key documents that contain our rights and freedoms.",
       options: [
         "The Canadian Constitution and English common law.",
@@ -1886,6 +2031,7 @@ const Questions = {
       source: { page: 0, chapter: "Rights and Responsibilities", lineNumbers: "0-0" }
     },
     "q146": {
+      'province-territory': 'national',
       text: "Name two responsibilities of the federal government.",
       options: [
         "National defence and firefighting.",
@@ -1899,6 +2045,7 @@ const Questions = {
       source: { page: 0, chapter: "Rights and Responsibilities", lineNumbers: "0-0" }
     },
     "q147": {
+      'province-territory': 'national',
       text: "Name two responsibilities of the provincial and territorial government.",
       options: [
         "Citizenship and Foreign Policy",
@@ -1912,6 +2059,7 @@ const Questions = {
       source: { page: 0, chapter: "Rights and Responsibilities", lineNumbers: "0-0" }
     },
     "q148": {
+      'province-territory': 'nunavut',
       text: "On what date did Nunavut become a territory?",
       options: [
         "July 1st, 1867",
@@ -1925,6 +2073,7 @@ const Questions = {
       source: { page: 0, chapter: "Canada's Regions", lineNumbers: "0-0" }
     },
     "q149": {
+      'province-territory': 'ontario',
       text: "One third of all Canadians live in which province?",
       options: [
         "Quebec.",
@@ -1938,6 +2087,7 @@ const Questions = {
       source: { page: 0, chapter: "Canada's Regions", lineNumbers: "0-0" }
     },
     "q150": {
+      'province-territory': 'national',
       text: "The Canadian Coat of Arms and motto is “A Mari Usque Ad Mare.” This means:",
       options: [
         "From the ocean to the sea.",
@@ -1951,6 +2101,7 @@ const Questions = {
       source: { page: 0, chapter: "Canadian Symbols", lineNumbers: "0-0" }
     },
     "q151": {
+      'province-territory': 'national',
       text: "What are some examples of taking responsibility for yourself and your family?",
       options: [
         "Buying a house and a TV.",
@@ -1964,6 +2115,7 @@ const Questions = {
       source: { page: 0, chapter: "How Canadians Govern", lineNumbers: "0-0" }
     },
     "q152": {
+      'province-territory': 'national',
       text: "What are the Prairie provinces and their capital cities?",
       options: [
         "Alberta (Edmonton) and Saskatchewan (Regina).",
@@ -1977,6 +2129,7 @@ const Questions = {
       source: { page: 0, chapter: "Canada's Regions", lineNumbers: "0-0" }
     },
     "q153": {
+      'province-territory': 'national',
       text: "What are the provinces of Central Canada and their capital cities?",
       options: [
         "Manitoba (Winnipeg) and Ontario (Toronto).",
@@ -1990,6 +2143,7 @@ const Questions = {
       source: { page: 0, chapter: "Canada's Regions", lineNumbers: "0-0" }
     },
     "q154": {
+      'province-territory': 'national',
       text: "What are the provinces of the Atlantic region and their capital cities?",
       options: [
         "Nova Scotia (Halifax), New Brunswick (Fredericton), Prince Edward Island (Charlottetown) and Quebec (Quebec).",
@@ -2003,6 +2157,7 @@ const Questions = {
       source: { page: 0, chapter: "Canada's Regions", lineNumbers: "0-0" }
     },
     "q155": {
+      'province-territory': 'northern-territories',
       text: "What are the territories of Northern Canada and their capital cities?",
       options: [
         "Alaska (Juneau) and Yukon Territory ( Whitehorse).",
@@ -2016,6 +2171,7 @@ const Questions = {
       source: { page: 0, chapter: "Canada's Regions", lineNumbers: "0-0" }
     },
     "q156": {
+      'province-territory': 'national',
       text: "What are the three main groups of Aboriginal peoples?",
       options: [
         "First Nations, Métis and Inuit.",
@@ -2029,6 +2185,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q157": {
+      'province-territory': 'national',
       text: "What are the three main types of industry in Canada?",
       options: [
         "Natural resources, tourism and service industries..",
@@ -2042,6 +2199,7 @@ const Questions = {
       source: { page: 0, chapter: "Canada's Economy", lineNumbers: "0-0" }
     },
     "q158": {
+      'province-territory': 'national',
       text: "What are the three parts of Parliament?",
       options: [
         "The Sovereign, Governor General and Prime Minister.",
@@ -2055,6 +2213,7 @@ const Questions = {
       source: { page: 0, chapter: "How Canadians Govern", lineNumbers: "0-0" }
     },
     "q159": {
+      'province-territory': 'national',
       text: "What are the two official languages of Canada?",
       options: [
         "English and Métis.",
@@ -2068,6 +2227,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q160": {
+      'province-territory': 'national',
       text: "What country is Canada’s largest trading partner?",
       options: [
         "Mexico.",
@@ -2081,6 +2241,7 @@ const Questions = {
       source: { page: 0, chapter: "Canada's Economy", lineNumbers: "0-0" }
     },
     "q161": {
+      'province-territory': 'national',
       text: "What did the Fathers of Confederation do?",
       options: [
         "They worked together to establish a new country, the Dominion of Canada",
@@ -2094,6 +2255,7 @@ const Questions = {
       source: { page: 0, chapter: "Canada's History", lineNumbers: "0-0" }
     },
     "q162": {
+      'province-territory': 'national',
       text: "What do you call the Sovereign’s representative in the provinces?",
       options: [
         "Premier.",
@@ -2107,6 +2269,7 @@ const Questions = {
       source: { page: 0, chapter: "How Canadians Govern", lineNumbers: "0-0" }
     },
     "q163": {
+      'province-territory': 'national',
       text: "What do you mark on a federal election ballot?",
       options: [
         "The candidate\'s name.",
@@ -2120,6 +2283,7 @@ const Questions = {
       source: { page: 0, chapter: "Federal Elections", lineNumbers: "0-0" }
     },
     "q164": {
+      'province-territory': 'national',
       text: "What does Confederation mean?",
       options: [
         "The United States Confederate soldiers came to Canada.",
@@ -2133,6 +2297,7 @@ const Questions = {
       source: { page: 0, chapter: "Canada's History", lineNumbers: "0-0" }
     },
     "q165": {
+      'province-territory': 'national',
       text: "What does it mean to say Canada is a constitutional monarchy?",
       options: [
         "The Sovereign (Queen or King) is the law maker of Canada.",
@@ -2146,6 +2311,7 @@ const Questions = {
       source: { page: 0, chapter: "How Canadians Govern", lineNumbers: "0-0" }
     },
     "q166": {
+      'province-territory': 'national',
       text: "What does the “right to a secret ballot” mean?",
       options: [
         "No one should tell you where to vote",
@@ -2159,6 +2325,7 @@ const Questions = {
       source: { page: 0, chapter: "Federal Elections", lineNumbers: "0-0" }
     },
     "q167": {
+      'province-territory': 'national',
       text: "What does the Canadian flag look like?",
       options: [
         "Red and white with provincial emblems.",
@@ -2172,6 +2339,7 @@ const Questions = {
       source: { page: 0, chapter: "Canadian Symbols", lineNumbers: "0-0" }
     },
     "q168": {
+      'province-territory': 'national',
       text: "What does the term “responsible government” mean?",
       options: [
         "Each person in each electoral district is responsible for voting.",
@@ -2185,6 +2353,7 @@ const Questions = {
       source: { page: 0, chapter: "How Canadians Govern", lineNumbers: "0-0" }
     },
     "q169": {
+      'province-territory': 'national',
       text: "What does the word “Inuit” mean?",
       options: [
         "Eskimo in Inuktitut",
@@ -2198,6 +2367,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q170": {
+      'province-territory': 'national',
       text: "What happened at the Battle of the Plains of Abraham?",
       options: [
         "The Voyagers battled with the British for fur trading rights",
@@ -2211,6 +2381,7 @@ const Questions = {
       source: { page: 0, chapter: "Canada's History", lineNumbers: "0-0" }
     },
     "q171": {
+      'province-territory': 'national',
       text: "What is a Francophone?",
       options: [
         "A person who speaks English as their first language",
@@ -2224,6 +2395,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q172": {
+      'province-territory': 'quebec',
       text: "What is a major river in Quebec?",
       options: [
         "Fraser River",
@@ -2237,6 +2409,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q173": {
+      'province-territory': 'national',
       text: "What is a majority government?",
       options: [
         "When the party in power holds about one third of the seats in the House of Commons",
@@ -2250,6 +2423,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q174": {
+      'province-territory': 'national',
       text: "What is a voter information card?",
       options: [
         "Tells you who the candidates are in your electoral district.",
@@ -2263,6 +2437,7 @@ const Questions = {
       source: { page: 0, chapter: "Federal Elections", lineNumbers: "0-0" }
     },
     "q175": {
+      'province-territory': 'national',
       text: "What is Canada’s national winter sport?",
       options: [
         "Golf.",
@@ -2276,6 +2451,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q176": {
+      'province-territory': 'national',
       text: "What is Canada’s system of government called?",
       options: [
         "Dictatorship.",
@@ -2289,6 +2465,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q177": {
+      'province-territory': 'national',
       text: "What is meant by the equality of women and men?",
       options: [
         "Men and women are equal under the law.",
@@ -2302,6 +2479,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q178": {
+      'province-territory': 'national',
       text: "What is the “head tax”?",
       options: [
         "Race-based entry fee charged for Chinese entering Canada.",
@@ -2315,6 +2493,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q179": {
+      'province-territory': 'national',
       text: "What is the capital city of Canada?",
       options: [
         "Ottawa.",
@@ -2328,6 +2507,7 @@ const Questions = {
       source: { page: 0, chapter: "Canada's Regions", lineNumbers: "0-0" }
     },
     "q180": {
+      'province-territory': 'national',
       text: "What is the difference between the role of the Sovereign and that of the Prime Minister?",
       options: [
         "The Sovereign is Head of State, the Prime Minister oversees provincial policies.",
@@ -2341,6 +2521,7 @@ const Questions = {
       source: { page: 0, chapter: "How Canadians Govern", lineNumbers: "0-0" }
     },
     "q181": {
+      'province-territory': 'national',
       text: "What is the government of all of Canada called?",
       options: [
         "National assembly.",
@@ -2354,6 +2535,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q182": {
+      'province-territory': 'national',
       text: "What is the highest court in Canada?",
       options: [
         "The King\'s Bench",
@@ -2367,6 +2549,7 @@ const Questions = {
       source: { page: 0, chapter: "Justice System", lineNumbers: "0-0" }
     },
     "q183": {
+      'province-territory': 'national',
       text: "What is the highest military honour a Canadian can receive?",
       options: [
         "Purple Cross.",
@@ -2380,6 +2563,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q184": {
+      'province-territory': 'national',
       text: "What is the largest religious affiliation in Canada?",
       options: [
         "Catholic.",
@@ -2393,6 +2577,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q185": {
+      'province-territory': 'national',
       text: "What is the name of the Governor General?",
       options: [
         "David Johnston.",
@@ -2406,6 +2591,7 @@ const Questions = {
       source: { page: 0, chapter: "How Canadians Govern", lineNumbers: "0-0" }
     },
     "q186": {
+      'province-territory': 'national',
       text: "What is the name of the Prime Minister of Canada and his/her party?",
       options: [
         "Mark Carney (Liberal Party).",
@@ -2419,6 +2605,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q187": {
+      'province-territory': 'national',
       text: "What is the name of the Royal Anthem of Canada?",
       options: [
         "O Canada.",
@@ -2432,6 +2619,7 @@ const Questions = {
       source: { page: 0, chapter: "Canadian Symbols", lineNumbers: "0-0" }
     },
     "q188": {
+      'province-territory': 'national',
       text: "What is the role of the Opposition parties?",
       options: [
         "To assist the Prime Minister.",
@@ -2445,6 +2633,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q189": {
+      'province-territory': 'national',
       text: "What is the significance of the discovery of insulin by Sir Frederick Banting and Charles Best?",
       options: [
         "Insulin is a hormone that permits you to eat anything you wish.",
@@ -2458,6 +2647,7 @@ const Questions = {
       source: { page: 0, chapter: "Modern Canada", lineNumbers: "0-0" }
     },
     "q190": {
+      'province-territory': 'national',
       text: "What part of the Constitution legally protects the basic rights and freedoms of all Canadians?",
       options: [
         "The British Charter of Rights and Freedoms.",
@@ -2471,6 +2661,7 @@ const Questions = {
       source: { page: 0, chapter: "Rights and Responsibilities", lineNumbers: "0-0" }
     },
     "q191": {
+      'province-territory': 'national',
       text: "What percentage of Aboriginal people are First Nations?",
       options: [
         "30%.",
@@ -2484,6 +2675,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q192": {
+      'province-territory': 'national',
       text: "What should you do if you do not receive a voter information card telling you when and where to vote?",
       options: [
         "Go to the police station.",
@@ -2497,6 +2689,7 @@ const Questions = {
       source: { page: 0, chapter: "Federal Elections", lineNumbers: "0-0" }
     },
     "q193": {
+      'province-territory': 'national',
       text: "What song is Canada’s national anthem?",
       options: [
         "God Save the King.",
@@ -2510,6 +2703,7 @@ const Questions = {
       source: { page: 0, chapter: "Canadian Symbols", lineNumbers: "0-0" }
     },
     "q194": {
+      'province-territory': 'national',
       text: "What three oceans border Canada?",
       options: [
         "Atlantic, Arctic and Bering.",
@@ -2523,6 +2717,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q195": {
+      'province-territory': 'national',
       text: "What was the “Underground Railroad”?",
       options: [
         "An anti-slavery network that helped thousands of slaves escape the United States and settle in Canada",
@@ -2536,6 +2731,7 @@ const Questions = {
       source: { page: 0, chapter: "Canada's History", lineNumbers: "0-0" }
     },
     "q196": {
+      'province-territory': 'national',
       text: "What was the significance of June 6, 1944 invasion of Normandy?",
       options: [
         "It led to the establishment of the Juno Awards.",
@@ -2549,6 +2745,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q197": {
+      'province-territory': 'national',
       text: "What was the Women’s Suffrage Movement?",
       options: [
         "The effort by women to achieve the right to vote.",
@@ -2562,6 +2759,7 @@ const Questions = {
       source: { page: 0, chapter: "Canada's History", lineNumbers: "0-0" }
     },
     "q198": {
+      'province-territory': 'national',
       text: "What will you promise when you take the Oath of Citizenship?",
       options: [
         "Pledge allegiance to the King, observe the laws of Canada and fulfil the duties of a Canadian.",
@@ -2575,6 +2773,7 @@ const Questions = {
       source: { page: 0, chapter: "Rights and Responsibilities", lineNumbers: "0-0" }
     },
     "q199": {
+      'province-territory': 'newfoundland-and-labrador',
       text: "What year did Newfoundland and Labrador join Canada?",
       options: [
         "1867",
@@ -2588,6 +2787,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q200": {
+      'province-territory': 'national',
       text: "When asked, who must you tell how you voted in a federal election?",
       options: [
         "Your employer.",
@@ -2601,6 +2801,7 @@ const Questions = {
       source: { page: 0, chapter: "Federal Elections", lineNumbers: "0-0" }
     },
     "q201": {
+      'province-territory': 'national',
       text: "When is Canada Day and what does it celebrate?",
       options: [
         "June 15 of each year to celebrate the anniversary of Confederation.",
@@ -2614,6 +2815,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q202": {
+      'province-territory': 'national',
       text: "When is Remembrance Day celebrated?",
       options: [
         "July 1st",
@@ -2627,6 +2829,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q203": {
+      'province-territory': 'national',
       text: "When must federal elections be held?",
       options: [
         "About every 4 years.",
@@ -2640,6 +2843,7 @@ const Questions = {
       source: { page: 0, chapter: "Federal Elections", lineNumbers: "0-0" }
     },
     "q204": {
+      'province-territory': 'national',
       text: "When you vote on election day, what do you do?",
       options: [
         "Go to the voting station, tell them who you are and mark your X. Give the ballot back to the attendant.",
@@ -2653,6 +2857,7 @@ const Questions = {
       source: { page: 0, chapter: "Federal Elections", lineNumbers: "0-0" }
     },
     "q205": {
+      'province-territory': 'ontario',
       text: "Where are the Great Lakes?",
       options: [
         "Between Ontario and the United States",
@@ -2666,6 +2871,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q206": {
+      'province-territory': 'national',
       text: "Where are the Parliament Buildings located?",
       options: [
         "Ottawa.",
@@ -2679,6 +2885,7 @@ const Questions = {
       source: { page: 0, chapter: "How Canadians Govern", lineNumbers: "0-0" }
     },
     "q207": {
+      'province-territory': 'quebec',
       text: "Where do most French-speaking Canadians live?",
       options: [
         "Ontario.",
@@ -2692,6 +2899,7 @@ const Questions = {
       source: { page: 0, chapter: "How Canadians Govern", lineNumbers: "0-0" }
     },
     "q208": {
+      'province-territory': 'national',
       text: "Where does Canada rank in the world’s largest countries?",
       options: [
         "First",
@@ -2705,6 +2913,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q209": {
+      'province-territory': 'national',
       text: "Which Act granted, for the first time in Canada, legislative assemblies elected by the people?",
       options: [
         "The Constitutional Act of 1867.",
@@ -2718,6 +2927,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q210": {
+      'province-territory': 'national',
       text: "Which animal is an official symbol of Canada?",
       options: [
         "The moose.",
@@ -2731,6 +2941,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q211": {
+      'province-territory': 'national',
       text: "Which country borders Canada on the south?",
       options: [
         "United States of America.",
@@ -2744,6 +2955,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q212": {
+      'province-territory': 'national',
       text: "Which federal political party is in power?",
       options: [
         "Green Party.",
@@ -2757,6 +2969,7 @@ const Questions = {
       source: { page: 0, chapter: "Federal Elections", lineNumbers: "0-0" }
     },
     "q213": {
+      'province-territory': 'national',
       text: "Which of the following is NOT a feature of Canada’s system of government?",
       options: [
         "A federal state.",
@@ -2770,6 +2983,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q214": {
+      'province-territory': 'national',
       text: "Which of the following sentences best describes the War of 1812?",
       options: [
         "Napoleon's fleet was defeated by the Royal Navy in the war.",
@@ -2783,6 +2997,7 @@ const Questions = {
       source: { page: 0, chapter: "Canada's History", lineNumbers: "0-0" }
     },
     "q215": {
+      'province-territory': 'national',
       text: "Which of the following statements about residential schools is NOT true?",
       options: [
         "The federal government placed many Aboriginal children in residential schools to educate and assimilate them into mainstream Canadian culture.",
@@ -2796,6 +3011,7 @@ const Questions = {
       source: { page: 0, chapter: "Canada's History", lineNumbers: "0-0" }
     },
     "q216": {
+      'province-territory': 'national',
       text: "Which party becomes the Official Opposition?",
       options: [
         "The party with the second most MPs.",
@@ -2809,6 +3025,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q217": {
+      'province-territory': 'national',
       text: "Which party is the Official Opposition at the federal level?",
       options: [
         "The New Democratic Party.",
@@ -2822,6 +3039,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q218": {
+      'province-territory': 'national',
       text: "Which port is the largest and busiest in Canada?",
       options: [
         "The Port of Halifax",
@@ -2835,6 +3053,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q219": {
+      'province-territory': 'newfoundland-and-labrador',
       text: "Which province has its own time zone?",
       options: [
         "British Columbia",
@@ -2848,6 +3067,7 @@ const Questions = {
       source: { page: 0, chapter: "Canada's Regions", lineNumbers: "0-0" }
     },
     "q220": {
+      'province-territory': 'prince-edward-island',
       text: "Which province in Canada is the smallest in land size?",
       options: [
         "Nova Scotia.",
@@ -2861,6 +3081,7 @@ const Questions = {
       source: { page: 0, chapter: "Canada's Regions", lineNumbers: "0-0" }
     },
     "q221": {
+      'province-territory': 'quebec',
       text: "Which province is the main producer of pulp and paper and hydro-electricity?",
       options: [
         "Quebec",
@@ -2874,6 +3095,7 @@ const Questions = {
       source: { page: 0, chapter: "Canada's Regions", lineNumbers: "0-0" }
     },
     "q222": {
+      'province-territory': 'new-brunswick',
       text: "Which province is the only officially bilingual province?",
       options: [
         "New Brunswick.",
@@ -2887,6 +3109,7 @@ const Questions = {
       source: { page: 0, chapter: "Canada's Regions", lineNumbers: "0-0" }
     },
     "q223": {
+      'province-territory': 'national',
       text: "Which province was split into two at Confederation?",
       options: [
         "Lower Canada",
@@ -2900,6 +3123,7 @@ const Questions = {
       source: { page: 0, chapter: "Canada's History", lineNumbers: "0-0" }
     },
     "q224": {
+      'province-territory': 'manitoba',
       text: "Which province was the first to grant voting rights to women?",
       options: [
         "Quebec",
@@ -2913,6 +3137,7 @@ const Questions = {
       source: { page: 0, chapter: "Canada's Regions", lineNumbers: "0-0" }
     },
     "q225": {
+      'province-territory': 'quebec',
       text: "Which provincial flag features the fleur-de-lys?",
       options: [
         "Quebec",
@@ -2926,6 +3151,7 @@ const Questions = {
       source: { page: 0, chapter: "Canadian Symbols", lineNumbers: "0-0" }
     },
     "q226": {
+      'province-territory': 'national',
       text: "Which region covers more than one-third of Canada?",
       options: [
         "Central Canada.",
@@ -2939,6 +3165,7 @@ const Questions = {
       source: { page: 0, chapter: "Canada's Regions", lineNumbers: "0-0" }
     },
     "q227": {
+      'province-territory': 'national',
       text: "Which region is known as the industrial and manufacturing heartland of Canada?",
       options: [
         "Atlantic provinces.",
@@ -2952,6 +3179,7 @@ const Questions = {
       source: { page: 0, chapter: "Canada's Regions", lineNumbers: "0-0" }
     },
     "q228": {
+      'province-territory': 'national',
       text: "Which region of Canada is known for both its fertile agricultural land and valuable energy resources?",
       options: [
         "British Columbia.",
@@ -2965,6 +3193,7 @@ const Questions = {
       source: { page: 0, chapter: "Canada's Regions", lineNumbers: "0-0" }
     },
     "q229": {
+      'province-territory': 'national',
       text: "Which three countries are signatories to NAFTA?",
       options: [
         "Canada, the United Kingdom and the United States.",
@@ -2978,6 +3207,7 @@ const Questions = {
       source: { page: 0, chapter: "Canada's Economy", lineNumbers: "0-0" }
     },
     "q230": {
+      'province-territory': 'newfoundland-and-labrador',
       text: "Which was the last province to join Canada?",
       options: [
         "Newfoundland.",
@@ -2991,6 +3221,7 @@ const Questions = {
       source: { page: 0, chapter: "Canada's Regions", lineNumbers: "0-0" }
     },
     "q231": {
+      'province-territory': 'national',
       text: "Who are the Aboriginal peoples of Canada?",
       options: [
         "The first European settlers to arrive in Canada",
@@ -3004,6 +3235,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q232": {
+      'province-territory': 'national',
       text: "Who are the founding peoples of Canada?",
       options: [
         "Métis, French and British.",
@@ -3017,6 +3249,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q233": {
+      'province-territory': 'national',
       text: "Who are the Métis?",
       options: [
         "The distinct aboriginal people of Atlantic Canada.",
@@ -3030,6 +3263,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q234": {
+      'province-territory': 'quebec',
       text: "Who are the Quebecers?",
       options: [
         "European settlers in the 1600s.",
@@ -3043,6 +3277,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q235": {
+      'province-territory': 'national',
       text: "Who do Members of Parliament represent?",
       options: [
         "All of the Canadians living in the north.",
@@ -3056,6 +3291,7 @@ const Questions = {
       source: { page: 0, chapter: "How Canadians Govern", lineNumbers: "0-0" }
     },
     "q236": {
+      'province-territory': 'national',
       text: "Who had played an important part in building the Canadian Pacific Railway (CPR)?",
       options: [
         "American railroad engineers.",
@@ -3069,6 +3305,7 @@ const Questions = {
       source: { page: 0, chapter: "How Canadians Govern", lineNumbers: "0-0" }
     },
     "q237": {
+      'province-territory': 'national',
       text: "Who has the right to run as a candidate in federal elections?",
       options: [
         "Anyone.",
@@ -3082,6 +3319,7 @@ const Questions = {
       source: { page: 0, chapter: "Federal Elections", lineNumbers: "0-0" }
     },
     "q238": {
+      'province-territory': 'national',
       text: "Who has the right to vote in federal elections?",
       options: [
         "A Canadian citizen, 18 years or older, and on voters' list.",
@@ -3095,6 +3333,7 @@ const Questions = {
       source: { page: 0, chapter: "Federal Elections", lineNumbers: "0-0" }
     },
     "q239": {
+      'province-territory': 'national',
       text: "Who have major responsibilities on First Nations reserves?",
       options: [
         "Band chiefs and councillors.",
@@ -3108,6 +3347,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q240": {
+      'province-territory': 'national',
       text: "Who is Canada’s Head of State?",
       options: [
         "Governor General of Canada.",
@@ -3121,6 +3361,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q241": {
+      'province-territory': 'manitoba',
       text: "Who is considered the father of Manitoba?",
       options: [
         "John A. Macdonald",
@@ -3134,6 +3375,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q242": {
+      'province-territory': 'national',
       text: "Who is General Sir Arthur Currie?",
       options: [
         "A military leader of the Métis in the 19th century.",
@@ -3147,6 +3389,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q243": {
+      'province-territory': 'national',
       text: "Who is the Head of Government?",
       options: [
         "The President",
@@ -3160,6 +3403,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q244": {
+      'province-territory': 'national',
       text: "Who is the King’s representative in Canada?",
       options: [
         "Prime Minister of Canada.",
@@ -3173,6 +3417,7 @@ const Questions = {
       source: { page: 0, chapter: "How Canadians Govern", lineNumbers: "0-0" }
     },
     "q245": {
+      'province-territory': 'national',
       text: "Who is the leader of the Federal Official Opposition Party?",
       options: [
         "Thomas Mulcair",
@@ -3186,6 +3431,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q246": {
+      'province-territory': 'national',
       text: "Who led an armed uprising and seized Fort Garry?",
       options: [
         "John A. Macdonald",
@@ -3199,6 +3445,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q247": {
+      'province-territory': 'quebec',
       text: "Who led Quebec into Confederation?",
       options: [
         "Sir Louis-Hippolyte La Fontaine",
@@ -3212,6 +3459,7 @@ const Questions = {
       source: { page: 0, chapter: "Canada's History", lineNumbers: "0-0" }
     },
     "q248": {
+      'province-territory': 'national',
       text: "Who was Sir Louis-Hippolyte La Fontaine?",
       options: [
         "A champion of democracy and Aboriginal rights.",
@@ -3225,6 +3473,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q249": {
+      'province-territory': 'national',
       text: "Who was Sir Sam Steele?",
       options: [
         "A great frontier hero, Mounted Policeman and soldier.",
@@ -3238,6 +3487,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q250": {
+      'province-territory': 'national',
       text: "Who was the first leader of a responsible government in the Canadas in 1849?",
       options: [
         "Sir John A. Macdonald.",
@@ -3251,6 +3501,7 @@ const Questions = {
       source: { page: 0, chapter: "How Canadians Govern", lineNumbers: "0-0" }
     },
     "q251": {
+      'province-territory': 'national',
       text: "Who was the first Prime Minister of Canada?",
       options: [
         "Louis Riel.",
@@ -3264,6 +3515,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q252": {
+      'province-territory': 'national',
       text: "Who were the Voyagers?",
       options: [
         "Montreal-based traders who travelled by canoe",
@@ -3277,6 +3529,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q253": {
+      'province-territory': 'national',
       text: "Why is the battle of Vimy Ridge important?",
       options: [
         "It was a key position of the German line in Northern Spain.",
@@ -3290,6 +3543,7 @@ const Questions = {
       source: { page: 0, chapter: "How Canadians Govern", lineNumbers: "0-0" }
     },
     "q254": {
+      'province-territory': 'national',
       text: "Why is trade with other countries important to Canada?",
       options: [
         "It enhances our standard of living.",
@@ -3304,6 +3558,7 @@ const Questions = {
       source: { page: 0, chapter: "How Canadians Govern", lineNumbers: "0-0" }
     },
     "q255": {
+      'province-territory': 'quebec',
       text: "What is the name of the leader of the Opposition in Quebec?",
       options: [
         "Dominique Anglade",
@@ -3317,6 +3572,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q256": {
+      'province-territory': 'quebec',
       text: "What is the name of the Lieutenant-Governor of Quebec?",
       options: [
         "Honourable Pierre Duchesne",
@@ -3330,6 +3586,7 @@ const Questions = {
       source: { page: 0, chapter: "How Canadians Govern", lineNumbers: "0-0" }
     },
     "q257": {
+      'province-territory': 'alberta',
       text: "What is the capital city of Alberta?",
       options: [
         "Medicine Hat.",
@@ -3343,6 +3600,7 @@ const Questions = {
       source: { page: 0, chapter: "Canada's Regions", lineNumbers: "0-0" }
     },
     "q258": {
+      'province-territory': 'alberta',
       text: "What is the name of the leader of the Opposition in Alberta?",
       options: [
         "Rachel Notley.",
@@ -3356,6 +3614,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q259": {
+      'province-territory': 'alberta',
       text: "What is the name of the Lieutenant-Governor of Alberta?",
       options: [
         "Donald S. Ethell.",
@@ -3369,6 +3628,7 @@ const Questions = {
       source: { page: 0, chapter: "How Canadians Govern", lineNumbers: "0-0" }
     },
     "q260": {
+      'province-territory': 'alberta',
       text: "What is the name of the Premier of Alberta?",
       options: [
         "Premier Rachel Notley.",
@@ -3382,6 +3642,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q261": {
+      'province-territory': 'alberta',
       text: "Which political party is in power in Alberta?",
       options: [
         "New Democratic Party.",
@@ -3395,6 +3656,7 @@ const Questions = {
       source: { page: 0, chapter: "Federal Elections", lineNumbers: "0-0" }
     },
     "q262": {
+      'province-territory': 'alberta',
       text: "Which three natural resources are important to Alberta’s economy today?",
       options: [
         "Oil, agriculture, and forestry.",
@@ -3408,6 +3670,7 @@ const Questions = {
       source: { page: 0, chapter: "How Canadians Govern", lineNumbers: "0-0" }
     },
     "q263": {
+      'province-territory': 'british-columbia',
       text: "Name the federal electoral districts in Richmond, British Columbia.",
       options: [
         "Richmond has two federal electoral districts: Richmond North and Richmond South",
@@ -3421,6 +3684,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q264": {
+      'province-territory': 'british-columbia',
       text: "Name the members of Parliament for Richmond, British Columbia and the parties they belong to (Richmond Centre, Steveston-Richmond East respectively).",
       options: [
         "Alice Wong (Conservative), Kenny Chiu (Conservative)",
@@ -3434,6 +3698,7 @@ const Questions = {
       source: { page: 0, chapter: "How Canadians Govern", lineNumbers: "0-0" }
     },
     "q265": {
+      'province-territory': 'british-columbia',
       text: "Name the Members of the Legislative Assembly for Richmond, British Columbia and the parties they belong to (Richmond North Centre, Richmond South Centre, Richmond-Steveston, and Richmond-Queensborough respectively).",
       options: [
         "Rob Howard (Liberal), Linda Reid (Liberal), John Cummins (Conservative), and John Yap (Liberal).",
@@ -3447,6 +3712,7 @@ const Questions = {
       source: { page: 0, chapter: "How Canadians Govern", lineNumbers: "0-0" }
     },
     "q266": {
+      'province-territory': 'british-columbia',
       text: "Name three city councillors for Richmond, British Columbia.",
       options: [
         "Malcolm Brodie, Derek Dang and Ernie Novakowski",
@@ -3460,6 +3726,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q267": {
+      'province-territory': 'british-columbia',
       text: "What is the capital city of British Columbia?",
       options: [
         "Vancouver.",
@@ -3473,6 +3740,7 @@ const Questions = {
       source: { page: 0, chapter: "Canada's Regions", lineNumbers: "0-0" }
     },
     "q268": {
+      'province-territory': 'british-columbia',
       text: "What is the name of the leader of the Opposition in British Columbia?",
       options: [
         "Adam Olsen",
@@ -3486,6 +3754,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q269": {
+      'province-territory': 'british-columbia',
       text: "What is the name of the Lieutenant-Governor of British Columbia?",
       options: [
         "David Lam",
@@ -3499,6 +3768,7 @@ const Questions = {
       source: { page: 0, chapter: "How Canadians Govern", lineNumbers: "0-0" }
     },
     "q270": {
+      'province-territory': 'british-columbia',
       text: "What is the name of the Mayor of Richmond, British Columbia?",
       options: [
         "Mayor Richard Lee",
@@ -3512,6 +3782,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q271": {
+      'province-territory': 'british-columbia',
       text: "What is the name of the Premier of British Columbia?",
       options: [
         "Premier Adrian Dix",
@@ -3525,6 +3796,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q272": {
+      'province-territory': 'british-columbia',
       text: "Which political party is in power in British Columbia?",
       options: [
         "New Democratic Party",
@@ -3538,6 +3810,7 @@ const Questions = {
       source: { page: 0, chapter: "Federal Elections", lineNumbers: "0-0" }
     },
     "q273": {
+      'province-territory': 'british-columbia',
       text: "Which three natural resources are important to British Columbia’s economy today?",
       options: [
         "Forests, water and grain crops.",
@@ -3551,6 +3824,7 @@ const Questions = {
       source: { page: 0, chapter: "How Canadians Govern", lineNumbers: "0-0" }
     },
     "q274": {
+      'province-territory': 'british-columbia',
       text: "Why is British Columbia known as Canada’s Pacific Gateway?",
       options: [
         "Most new imigrants arrive at Vancouver International Airport.",
@@ -3564,6 +3838,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q275": {
+      'province-territory': 'manitoba',
       text: "What is the capital city of Manitoba?",
       options: [
         "Winnipeg",
@@ -3577,6 +3852,7 @@ const Questions = {
       source: { page: 0, chapter: "Canada's Regions", lineNumbers: "0-0" }
     },
     "q276": {
+      'province-territory': 'manitoba',
       text: "What is the name of the leader of the Opposition in Manitoba?",
       options: [
         "Obby Khan",
@@ -3590,6 +3866,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q277": {
+      'province-territory': 'manitoba',
       text: "What is the name of the Lieutenant-Governor of Manitoba?",
       options: [
         "Honourable Anita Neville",
@@ -3603,6 +3880,7 @@ const Questions = {
       source: { page: 0, chapter: "How Canadians Govern", lineNumbers: "0-0" }
     },
     "q278": {
+      'province-territory': 'manitoba',
       text: "What is the name of the Premier of Manitoba?",
       options: [
         "Premier Heather Stefanson",
@@ -3616,6 +3894,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q279": {
+      'province-territory': 'manitoba',
       text: "What three industries are important to Manitoba’s economy today?",
       options: [
         "Farming, mining and fishing",
@@ -3629,6 +3908,7 @@ const Questions = {
       source: { page: 0, chapter: "How Canadians Govern", lineNumbers: "0-0" }
     },
     "q280": {
+      'province-territory': 'manitoba',
       text: "Which political party is in power in Manitoba?",
       options: [
         "Manitoba Party",
@@ -3642,6 +3922,7 @@ const Questions = {
       source: { page: 0, chapter: "Federal Elections", lineNumbers: "0-0" }
     },
     "q281": {
+      'province-territory': 'new-brunswick',
       text: "What is the capital city of New Brunswick?",
       options: [
         "Victoria",
@@ -3655,6 +3936,7 @@ const Questions = {
       source: { page: 0, chapter: "Canada's Regions", lineNumbers: "0-0" }
     },
     "q282": {
+      'province-territory': 'new-brunswick',
       text: "What is the name of the leader of the Opposition in New Brunswick?",
       options: [
         "Victor Boudreau",
@@ -3668,6 +3950,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q283": {
+      'province-territory': 'new-brunswick',
       text: "What is the name of the Lieutenant-Governor of New Brunswick?",
       options: [
         "Honourable Louise Imbeault",
@@ -3681,6 +3964,7 @@ const Questions = {
       source: { page: 0, chapter: "How Canadians Govern", lineNumbers: "0-0" }
     },
     "q284": {
+      'province-territory': 'new-brunswick',
       text: "What is the name of the Premier of New Brunswick?",
       options: [
         "Premier Bernard Lord",
@@ -3694,6 +3978,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q285": {
+      'province-territory': 'new-brunswick',
       text: "What three industries are important to New Brunswick’s economy today?",
       options: [
         "Forestry, hydro-electric power generation, oil",
@@ -3707,6 +3992,7 @@ const Questions = {
       source: { page: 0, chapter: "How Canadians Govern", lineNumbers: "0-0" }
     },
     "q286": {
+      'province-territory': 'new-brunswick',
       text: "Which political party is in power in New Brunswick?",
       options: [
         "Liberal party of New Brunswick",
@@ -3720,6 +4006,7 @@ const Questions = {
       source: { page: 0, chapter: "Federal Elections", lineNumbers: "0-0" }
     },
     "q287": {
+      'province-territory': 'newfoundland-and-labrador',
       text: "What is the capital city of Newfoundland and Labrador?",
       options: [
         "Charlottetown",
@@ -3733,6 +4020,7 @@ const Questions = {
       source: { page: 0, chapter: "Canada's Regions", lineNumbers: "0-0" }
     },
     "q288": {
+      'province-territory': 'newfoundland-and-labrador',
       text: "What is the name of the leader of the Opposition in Newfoundland and Labrador?",
       options: [
         "David Brazil",
@@ -3746,6 +4034,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q289": {
+      'province-territory': 'newfoundland-and-labrador',
       text: "What is the name of the Lieutenant-Governor of Newfoundland and Labrador?",
       options: [
         "Honourable Frank F. Fagan",
@@ -3759,6 +4048,7 @@ const Questions = {
       source: { page: 0, chapter: "How Canadians Govern", lineNumbers: "0-0" }
     },
     "q290": {
+      'province-territory': 'newfoundland-and-labrador',
       text: "What is the name of the Premier of Newfoundland and Labrador?",
       options: [
         "Premier Tony Wakeham",
@@ -3772,6 +4062,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q291": {
+      'province-territory': 'newfoundland-and-labrador',
       text: "What three industries are important to Newfoundland and Labrador’s economy today?",
       options: [
         "Fisheries, oil and gas extraction",
@@ -3785,6 +4076,7 @@ const Questions = {
       source: { page: 0, chapter: "How Canadians Govern", lineNumbers: "0-0" }
     },
     "q292": {
+      'province-territory': 'newfoundland-and-labrador',
       text: "Which political party is in power in Newfoundland and Labrador?",
       options: [
         "NFL Party",
@@ -3798,6 +4090,7 @@ const Questions = {
       source: { page: 0, chapter: "Federal Elections", lineNumbers: "0-0" }
     },
     "q293": {
+      'province-territory': 'nova-scotia',
       text: "What is the capital City of Nova Scotia?",
       options: [
         "Shearwater",
@@ -3811,6 +4104,7 @@ const Questions = {
       source: { page: 0, chapter: "Canada's Regions", lineNumbers: "0-0" }
     },
     "q294": {
+      'province-territory': 'nova-scotia',
       text: "What is the name of the leader of the Opposition in Nova Scotia?",
       options: [
         "Darrell Dexter",
@@ -3824,6 +4118,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q295": {
+      'province-territory': 'nova-scotia',
       text: "What is the name of the Lieutenant-Governor of Nova Scotia?",
       options: [
         "Honourable John James Grant",
@@ -3837,6 +4132,7 @@ const Questions = {
       source: { page: 0, chapter: "How Canadians Govern", lineNumbers: "0-0" }
     },
     "q296": {
+      'province-territory': 'nova-scotia',
       text: "What is the name of the Premier of Nova Scotia?",
       options: [
         "Premier Darrel Dexter",
@@ -3850,6 +4146,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q297": {
+      'province-territory': 'nova-scotia',
       text: "What three industries are important to Nova Scotia’s economy today?",
       options: [
         "Fisheries, shipbuilding and forestry",
@@ -3863,6 +4160,7 @@ const Questions = {
       source: { page: 0, chapter: "How Canadians Govern", lineNumbers: "0-0" }
     },
     "q298": {
+      'province-territory': 'nova-scotia',
       text: "Which political party is in power in Nova Scotia?",
       options: [
         "New Democrats",
@@ -3876,6 +4174,7 @@ const Questions = {
       source: { page: 0, chapter: "Federal Elections", lineNumbers: "0-0" }
     },
     "q299": {
+      'province-territory': 'northwest-territories',
       text: "What is the capital City of the Northwest Territories?",
       options: [
         "Fort Simpson",
@@ -3889,6 +4188,7 @@ const Questions = {
       source: { page: 0, chapter: "Canada's Regions", lineNumbers: "0-0" }
     },
     "q300": {
+      'province-territory': 'northwest-territories',
       text: "What is the name of the Commissioner of the Northwest Territories?",
       options: [
         "Honourable Margaret Thom",
@@ -3902,6 +4202,7 @@ const Questions = {
       source: { page: 0, chapter: "Canada's Regions", lineNumbers: "0-0" }
     },
     "q301": {
+      'province-territory': 'northwest-territories',
       text: "What is the name of the leader of the Opposition in the Northwest Territories?",
       options: [
         "None",
@@ -3915,6 +4216,7 @@ const Questions = {
       source: { page: 0, chapter: "Canada's Regions", lineNumbers: "0-0" }
     },
     "q302": {
+      'province-territory': 'northwest-territories',
       text: "What is the name of the Premier of the Northwest Territories?",
       options: [
         "Premier Bob McLeod",
@@ -3928,6 +4230,7 @@ const Questions = {
       source: { page: 0, chapter: "Canada's Regions", lineNumbers: "0-0" }
     },
     "q303": {
+      'province-territory': 'northwest-territories',
       text: "Which political party is in power in the Northwest Territories?",
       options: [
         "Yukon Party",
@@ -3941,6 +4244,7 @@ const Questions = {
       source: { page: 0, chapter: "Federal Elections", lineNumbers: "0-0" }
     },
     "q304": {
+      'province-territory': 'nunavut',
       text: "What is the capital City of the Nunavut?",
       options: [
         "Sinaa",
@@ -3954,6 +4258,7 @@ const Questions = {
       source: { page: 0, chapter: "Canada's Regions", lineNumbers: "0-0" }
     },
     "q305": {
+      'province-territory': 'nunavut',
       text: "What is the name of the Commissioner of Nunavut?",
       options: [
         "Honourable Peter Irniq",
@@ -3967,6 +4272,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q306": {
+      'province-territory': 'nunavut',
       text: "What is the name of the leader of the Opposition in Nunavut?",
       options: [
         "Don Morin",
@@ -3980,6 +4286,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q307": {
+      'province-territory': 'nunavut',
       text: "What is the name of the Premier of Nunavut?",
       options: [
         "Premier Paul Okalik",
@@ -3993,6 +4300,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q308": {
+      'province-territory': 'nunavut',
       text: "Which political party is in power in Nunavut?",
       options: [
         "Progressive Conservative",
@@ -4006,6 +4314,7 @@ const Questions = {
       source: { page: 0, chapter: "Federal Elections", lineNumbers: "0-0" }
     },
     "q309": {
+      'province-territory': 'ontario',
       text: "What is the capital city of Ontario?",
       options: [
         "Kingston",
@@ -4019,6 +4328,7 @@ const Questions = {
       source: { page: 0, chapter: "Canada's Regions", lineNumbers: "0-0" }
     },
     "q310": {
+      'province-territory': 'ontario',
       text: "What is the name of the leader of the Opposition in Ontario?",
       options: [
         "Andrea Horwath",
@@ -4032,6 +4342,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q311": {
+      'province-territory': 'ontario',
       text: "What is the name of the Lieutenant-Governor of Ontario?",
       options: [
         "James Bartleman",
@@ -4045,6 +4356,7 @@ const Questions = {
       source: { page: 0, chapter: "How Canadians Govern", lineNumbers: "0-0" }
     },
     "q312": {
+      'province-territory': 'ontario',
       text: "What is the name of the Premier of Ontario?",
       options: [
         "Premier Doug Ford",
@@ -4058,6 +4370,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q313": {
+      'province-territory': 'ontario',
       text: "What three industries are important to Ontario’s economy today?",
       options: [
         "Mining, fishing, automobile manufacturing",
@@ -4071,6 +4384,7 @@ const Questions = {
       source: { page: 0, chapter: "How Canadians Govern", lineNumbers: "0-0" }
     },
     "q314": {
+      'province-territory': 'ontario',
       text: "Which political party is in power in Ontario?",
       options: [
         "Green Party",
@@ -4084,6 +4398,7 @@ const Questions = {
       source: { page: 0, chapter: "Federal Elections", lineNumbers: "0-0" }
     },
     "q315": {
+      'province-territory': 'prince-edward-island',
       text: "What is the capital City of the Prince Edward Island?",
       options: [
         "Cornwall",
@@ -4097,6 +4412,7 @@ const Questions = {
       source: { page: 0, chapter: "Canada's History", lineNumbers: "0-0" }
     },
     "q316": {
+      'province-territory': 'prince-edward-island',
       text: "What is the name of the leader of the Opposition in Prince Edward Island?",
       options: [
         "Hal Perry",
@@ -4110,6 +4426,7 @@ const Questions = {
       source: { page: 0, chapter: "Canada's History", lineNumbers: "0-0" }
     },
     "q317": {
+      'province-territory': 'prince-edward-island',
       text: "What is the name of the Lieutenant-Governor of Prince Edward Island?",
       options: [
         "Honourable Dr. Wassim Salamoun",
@@ -4123,6 +4440,7 @@ const Questions = {
       source: { page: 0, chapter: "How Canadians Govern", lineNumbers: "0-0" }
     },
     "q318": {
+      'province-territory': 'prince-edward-island',
       text: "What is the name of the Premier of Prince Edward Island?",
       options: [
         "Premier Wade MacLauchlan",
@@ -4136,6 +4454,7 @@ const Questions = {
       source: { page: 0, chapter: "Canada's History", lineNumbers: "0-0" }
     },
     "q319": {
+      'province-territory': 'prince-edward-island',
       text: "Which political party is in power in Prince Edward Island?",
       options: [
         "Progressive Conservative",
@@ -4149,6 +4468,7 @@ const Questions = {
       source: { page: 0, chapter: "Federal Elections", lineNumbers: "0-0" }
     },
     "q320": {
+      'province-territory': 'quebec',
       text: "What is the capital City of the Quebec?",
       options: [
         "Beauport",
@@ -4162,6 +4482,7 @@ const Questions = {
       source: { page: 0, chapter: "Canada's Regions", lineNumbers: "0-0" }
     },
     "q321": {
+      'province-territory': 'quebec',
       text: "What is the name of the Premier of Quebec ?",
       options: [
         "Premier Lucien Bouchard",
@@ -4175,6 +4496,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q322": {
+      'province-territory': 'quebec',
       text: "What three industries are important to Quebec’s economy today?",
       options: [
         "Tourism, mining and forestry",
@@ -4188,6 +4510,7 @@ const Questions = {
       source: { page: 0, chapter: "How Canadians Govern", lineNumbers: "0-0" }
     },
     "q323": {
+      'province-territory': 'quebec',
       text: "Which political party is in power in Quebec?",
       options: [
         "Coalition Avenir Québec",
@@ -4201,6 +4524,7 @@ const Questions = {
       source: { page: 0, chapter: "Federal Elections", lineNumbers: "0-0" }
     },
     "q324": {
+      'province-territory': 'saskatchewan',
       text: "What is the capital city of Saskatchewan?",
       options: [
         "Regina",
@@ -4214,6 +4538,7 @@ const Questions = {
       source: { page: 0, chapter: "Canada's Regions", lineNumbers: "0-0" }
     },
     "q325": {
+      'province-territory': 'saskatchewan',
       text: "What is the name of the leader of the Opposition in Saskatchewan?",
       options: [
         "Ryan Meili",
@@ -4227,6 +4552,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q326": {
+      'province-territory': 'saskatchewan',
       text: "What is the name of the Lieutenant-Governor of Saskatchewan?",
       options: [
         "Honourable Dr. Gordon L. Barnhart",
@@ -4240,6 +4566,7 @@ const Questions = {
       source: { page: 0, chapter: "How Canadians Govern", lineNumbers: "0-0" }
     },
     "q327": {
+      'province-territory': 'saskatchewan',
       text: "What is the name of the Premier of Saskatchewan?",
       options: [
         "Premier Lorne Calvert",
@@ -4253,6 +4580,7 @@ const Questions = {
       source: { page: 0, chapter: "Who We Are", lineNumbers: "0-0" }
     },
     "q328": {
+      'province-territory': 'saskatchewan',
       text: "What three industries are important to Saskatchewan’s economy today?",
       options: [
         "Forestry, films and tourism",
@@ -4266,6 +4594,7 @@ const Questions = {
       source: { page: 0, chapter: "How Canadians Govern", lineNumbers: "0-0" }
     },
     "q329": {
+      'province-territory': 'saskatchewan',
       text: "Which political party is in power in Saskatchewan?",
       options: [
         "NDP",
@@ -4279,6 +4608,7 @@ const Questions = {
       source: { page: 0, chapter: "Federal Elections", lineNumbers: "0-0" }
     },
     "q330": {
+      'province-territory': 'yukon',
       text: "What is the capital city of Yukon Territory?",
       options: [
         "MacRae",
@@ -4292,6 +4622,7 @@ const Questions = {
       source: { page: 0, chapter: "Canada's Regions", lineNumbers: "0-0" }
     },
     "q331": {
+      'province-territory': 'yukon',
       text: "What is the name of the Commissioner of Yukon Territory?",
       options: [
         "Honourable Doug Phillips",
@@ -4305,6 +4636,7 @@ const Questions = {
       source: { page: 0, chapter: "Canada's Regions", lineNumbers: "0-0" }
     },
     "q332": {
+      'province-territory': 'yukon',
       text: "What is the name of the leader of the Opposition in Yukon Territory?",
       options: [
         "Trevor Harding",
@@ -4318,6 +4650,7 @@ const Questions = {
       source: { page: 0, chapter: "Canada's Regions", lineNumbers: "0-0" }
     },
     "q333": {
+      'province-territory': 'yukon',
       text: "What is the name of the Premier of Yukon Territory?",
       options: [
         "Premier Dennis Fentie",
@@ -4331,6 +4664,7 @@ const Questions = {
       source: { page: 0, chapter: "Canada's Regions", lineNumbers: "0-0" }
     },
     "q334": {
+      'province-territory': 'yukon',
       text: "Which political party is in power in Yukon Territory?",
       options: [
         "Progressive Conservatives",
@@ -4344,6 +4678,7 @@ const Questions = {
       source: { page: 0, chapter: "Federal Elections", lineNumbers: "0-0" }
     },
     "q335": {
+      'province-territory': 'national',
       text: "What are three responsibilities of citizenship?",
       options: [
         "Being loyal to Canada, recycling newspapers, serving in the navy, army or air force.",

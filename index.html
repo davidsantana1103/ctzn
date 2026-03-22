@@ -317,9 +317,15 @@
       timerEl.classList.add('hidden');
     }
 
-    function selectQuestions(count = CONFIG.QUESTIONS_PER_TEST) {
+    function selectQuestions(count = CONFIG.QUESTIONS_PER_TEST, selectedProvince = 'national') {
       const qstats = Data.getQuestionStats();
-      const allIds = Object.keys(Questions.getAll());
+      const allIds = Object.keys(Questions.getAll()).filter(id => {
+        const q = Questions.get(id);
+        const qProv = q['province-territory'];
+        if (qProv === 'national' || qProv === selectedProvince) return true;
+        if (qProv === 'northern-territories' && ['yukon', 'northwest-territories', 'nunavut'].includes(selectedProvince)) return true;
+        return false;
+      });
       const scored = allIds.map(id => {
         const stats = qstats[id] || { attempts: 0, correct: 0, lastSeen: null };
         let score = 50;
@@ -387,6 +393,29 @@
             <div class="stat"><div class="stat-value">${totalTests}</div><div class="stat-label">Tests Taken</div></div>
             <div class="stat"><div class="stat-value">${bestScore}%</div><div class="stat-label">Best Score</div></div>
             <div class="stat"><div class="stat-value">${avgScore}%</div><div class="stat-label">Average</div></div>
+          </div>
+          <div style="margin-bottom: 1.5rem; text-align: left;">
+            <label for="province-filter" style="display: block; font-size: 0.875rem; color: #6b7280; margin-bottom: 0.5rem; font-weight: 500;">Select Province/Territory for Specific Questions:</label>
+            <select id="province-filter" class="option" style="width: 100%; appearance: none; background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23dc2626%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22/%3E%3C/svg%3E'); background-repeat: no-repeat; background-position: right 1rem top 50%; background-size: .65rem auto; padding-right: 2.5rem; cursor: pointer;">
+              <option value="national">National (General Only)</option>
+              <optgroup label="Provinces">
+                <option value="alberta">Alberta</option>
+                <option value="british-columbia">British Columbia</option>
+                <option value="manitoba">Manitoba</option>
+                <option value="new-brunswick">New Brunswick</option>
+                <option value="newfoundland-and-labrador">Newfoundland and Labrador</option>
+                <option value="nova-scotia">Nova Scotia</option>
+                <option value="ontario">Ontario</option>
+                <option value="prince-edward-island">Prince Edward Island</option>
+                <option value="quebec">Quebec</option>
+                <option value="saskatchewan">Saskatchewan</option>
+              </optgroup>
+              <optgroup label="Territories">
+                <option value="northwest-territories">Northwest Territories</option>
+                <option value="yukon">Yukon</option>
+                <option value="nunavut">Nunavut</option>
+              </optgroup>
+            </select>
           </div>
           <div style="text-align: center; display: flex; flex-direction: column; gap: 0.75rem;">
             <button id="start-btn" class="btn">Start New Test</button>
@@ -907,7 +936,8 @@
     }
 
     function startTest() {
-      const testIds = selectQuestions(20);
+      const province = document.getElementById('province-filter')?.value || 'national';
+      const testIds = selectQuestions(20, province);
       state.session = { 
         id: Date.now().toString(), 
         mode: 'normal',
@@ -924,7 +954,14 @@
     }
 
     function startFullBankReview() {
-      const allIds = Object.keys(Questions.getAll()).sort(() => Math.random() - 0.5);
+      const province = document.getElementById('province-filter')?.value || 'national';
+      const allIds = Object.keys(Questions.getAll()).filter(id => {
+        const q = Questions.get(id);
+        const qProv = q['province-territory'];
+        if (qProv === 'national' || qProv === province) return true;
+        if (qProv === 'northern-territories' && ['yukon', 'northwest-territories', 'nunavut'].includes(province)) return true;
+        return false;
+      }).sort(() => Math.random() - 0.5);
       state.session = {
         id: Date.now().toString(),
         mode: 'full-bank',
