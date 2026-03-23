@@ -1400,7 +1400,7 @@ const Questions = {
       category: "Rights and Responsibilities",
       source: { page: 1, chapter: "Rights and Responsibilities", lineNumbers: "1-10" }
     }
-,
+    ,
     "q101": {
       'province-territory': 'national',
       text: "Who are the Acadians?",
@@ -1697,7 +1697,7 @@ const Questions = {
     },
     "q122": {
       'province-territory': 'national',
-      text: "",
+      text: "Approximately how many Canadians served in the First World War?",
       options: [
         "8 million.",
         "About 60,000.",
@@ -4690,16 +4690,17 @@ const Questions = {
       explanation: "Correct answer is: Obeying the law, taking responsibility for oneself and one’s family, serving on a jury.",
       category: "Rights and Responsibilities",
       source: { page: 0, chapter: "Rights and Responsibilities", lineNumbers: "0-0" }
-    }  },
-  
+    }
+  },
+
   getAll() {
     return this.questionBank;
   },
-  
+
   get(id) {
     return this.questionBank[id];
   },
-  
+
   getByCategory(category) {
     const results = {};
     Object.keys(this.questionBank).forEach(id => {
@@ -4709,7 +4710,7 @@ const Questions = {
     });
     return results;
   },
-  
+
   getCategories() {
     const categories = new Set();
     Object.values(this.questionBank).forEach(q => {
@@ -4717,13 +4718,13 @@ const Questions = {
     });
     return Array.from(categories).sort();
   },
-  
+
   getRandomQuestions(count) {
     const ids = Object.keys(this.questionBank);
     const shuffled = ids.sort(() => Math.random() - 0.5);
     return shuffled.slice(0, count).map(id => this.questionBank[id]);
   },
-  
+
   getCount() {
     return Object.keys(this.questionBank).length;
   }
