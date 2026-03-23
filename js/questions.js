@@ -4727,6 +4727,14 @@ const Questions = {
 
   getCount() {
     return Object.keys(this.questionBank).length;
+  },
+  
+  getAll() {
+    return this.questionBank;
+  },
+
+  get(id) {
+    return this.questionBank[id];
   }
 };
 

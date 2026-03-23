@@ -656,51 +656,18 @@
       const qId = state.session.questionIds[state.session.currentIndex];
       state.session.answers[qId] = i;
       saveState();
+      
       const isLast = state.session.currentIndex >= state.session.questionIds.length - 1;
       const optionId = `#q${state.session.currentIndex}-option-${i}`;
       
-      console.log('selectOption:', i, 'qId:', qId, 'isLast:', isLast);
-      
-      // Clear all selected classes before animation
-      const selectedEls = document.querySelectorAll('.option.selected');
-      console.log('Clearing', selectedEls.length, 'selected elements');
-      selectedEls.forEach(el => {
-        el.classList.remove('selected');
-        el.removeAttribute('aria-checked');
-      });
-      
-      // Add selected to current
+      // Update UI immediately for feedback
+      const options = document.querySelectorAll('.option');
+      options.forEach(el => el.classList.remove('selected'));
       const currentEl = document.querySelector(optionId);
-      if (currentEl) {
-        currentEl.classList.add('selected');
-        currentEl.setAttribute('aria-checked', 'true');
-      }
+      if (currentEl) currentEl.classList.add('selected');
       
       anime({
         targets: optionId,
-        scale: [1, 1.02],
-        duration: 150,
-        easing: 'easeOutQuad',
-        complete: () => {
-          if (isLast) {
-            submitTest();
-          } else {
-            state.session.currentIndex++;
-            renderTest();
-          }
-        }
-      });
-    }
-
-    function selectOption(i) {
-      const qId = state.session.questionIds[state.session.currentIndex];
-      state.session.answers[qId] = i;
-      saveState();
-      
-      const isLast = state.session.currentIndex >= state.session.questionIds.length - 1;
-      
-      anime({
-        targets: `#option-${i}`,
         scale: [1, 1.02],
         duration: 150,
         easing: 'easeOutQuad',
@@ -978,6 +945,11 @@
     }
 
     function nextFullBankRound() {
+      if (!state.session.fullBankPool || state.session.fullBankPool.length === 0) {
+        console.warn('Full bank pool is empty, finishing review.');
+        finishFullBankReview();
+        return;
+      }
       const count = Math.min(20, state.session.fullBankPool.length);
       state.session.questionIds = state.session.fullBankPool.splice(0, count);
       state.session.answers = {};
@@ -985,6 +957,7 @@
       state.session.status = 'in-progress';
       state.session.submitted = false;
       state.timeRemaining = CONFIG.TIME_LIMIT;
+      console.log('Next round started. Remaining in pool:', state.session.fullBankPool.length);
       saveState();
       renderTest();
       startTimer();
